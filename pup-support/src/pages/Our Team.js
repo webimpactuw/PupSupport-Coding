@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 /**
  * Pupsupport Our Team Page
  */
-function Home() {
+function OurTeam() {
     // Related functions here
 
     // HTML/React components here to render page
@@ -61,4 +61,4 @@ function Home() {
     );
 }
 
-export default Home;
+export default OurTeam;
