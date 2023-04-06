@@ -4,11 +4,13 @@ export default function Dropdown(props) {
     return(
         <div>
             <h1>{props.heading}</h1>
-            makeNcards(props.numCards);
+            {/* makeNcards(props.numCards); */}
         </div>
     );
 }
 
 function makeNcards(n) {
-    for 
+    for (let i = 0; i < n; i++) {
+
+    }
 }
