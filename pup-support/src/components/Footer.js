@@ -1,3 +1,4 @@
+import React from 'react';
 
 /**
  * Footer found on every page containing:
@@ -5,7 +6,8 @@
  */
 function Footer() {
     return(
-        <div></div>
+        <div>
+        </div>
     );
 }
 
