@@ -1,4 +1,5 @@
 import React from 'react';
+import footer from '../assets/footer-rectangle.png'
 
 /**
  * Footer found on every page containing:
@@ -7,8 +8,10 @@ import React from 'react';
 function Footer() {
     return(
         <div>
+            <img src={footer} style={'width: 100%'} alt="Footer background"></img>
         </div>
     );
 }
+
 
 export default Footer;
