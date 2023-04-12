@@ -1,21 +1,21 @@
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import { Link } from 'react-router-dom';
 
 /**
- * Pupsupport home page
+ * Pupsupport home resource page 
  */
-function Home() {
+function Resources() {
     // Related functions here
 
     // HTML/React components here to render page
     return (
         <div>
-            <Header></Header>
-            {/* Other page contents here */}
+            {/* Sam, replace this with your resources code */}
             <p>This is the resources page</p>
-            <Footer></Footer>
+            
+            {/* example of how linking will work */}
+            <Link to='/videos'>Videos</Link>
         </div>
     );
 }
 
-export default Home;
+export default Resources;

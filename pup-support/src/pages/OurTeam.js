@@ -1,5 +1,3 @@
-import Header from '../components/Header';
-import Footer from '../components/Footer';
 
 /**
  * Pupsupport Our Team Page
@@ -10,7 +8,6 @@ function OurTeam() {
     // HTML/React components here to render page
     return (
         <div>
-            <Header></Header>
             <div>
               <h1>Our Team</h1>
               <p>Meet the faces behind Pup Support. Our team is made up of innovators, designers, and compassionate members who value the importance of inclusive mental health access.</p>
@@ -56,7 +53,6 @@ function OurTeam() {
                   </div>
                 </div>
             </section>
-            <Footer></Footer>
         </div>
     );
 }
