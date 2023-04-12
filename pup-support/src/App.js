@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Resources from './pages/Resources';
 import OurTeam from './pages/OurTeam';
 import Videos from './pages/Videos';
+import AboutUs from './pages/AboutUs';
 // import Merch from './pages/Merch';
 // import Donation from './pages/Donation';
 
@@ -13,7 +14,7 @@ function App() {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path='/about' element={<OurTeam/>} /> 
+        <Route path='/about' element={<AboutUs/>} /> 
 
         {/* Resources related routes */}
         <Route path='/resources' element={<Resources/>} />

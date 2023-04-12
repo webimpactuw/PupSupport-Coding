@@ -1,10 +1,10 @@
 import DropdownCard from "./DropdownCard";
+import Dropdown from 'react-bootstrap/Dropdown';
 
-export default function Dropdown(props) {
+export default function DropdownBar() {
     return(
         <div>
-            <h1>{props.heading}</h1>
-            {/* makeNcards(props.numCards); */}
+          
         </div>
     );
 }
