@@ -1,3 +1,32 @@
-.App {
-  text-align: center;
+/* General styling persistent accross app pages */
+
+/* Header styling */
+#nav {
+  display: flex;
+  justify-content: center;
+  height: 4em;
+  background-color: rgb(180, 141, 244);
 }
+
+#nav > * {
+  margin-top: 1.5em;
+  padding: 0em 4em 4em 4em;
+}
+
+#home-button {
+  border-radius: 50%;
+  height: 93px;
+  width: 110px;
+  margin: 0em;
+  padding: 0em;
+  background-color: rgb(180, 141, 244);
+}
+
+img {
+  width: 4em;
+  padding: 1em;
+  margin-left: auto;
+  margin-right: auto
+}
+
+/* Footer styling */
