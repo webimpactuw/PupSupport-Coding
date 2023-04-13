@@ -1,7 +1,7 @@
 import React from 'react';
 import puphome from '../assets/puphome.png'; 
 import { Link } from 'react-router-dom';
-import '../css/header.css'
+import '../css/App.css'
 
 /**
  * Header navigation bar found on every page containing links to: 
@@ -13,7 +13,9 @@ function Header() {
             <section id='nav'>
                 <Link className="nav-item" to='/about'>About</Link>
                 <Link className="nav-item" to='/resources'>Resources</Link>
-                <Link to='/'><img src={puphome} alt="Pup home icon"></img></Link>
+                <section id='home-button'>
+                    <Link to='/'><img src={puphome} alt="Pup home icon"></img></Link>
+                </section>
                 <Link to='/merch'>Merch</Link>
                 <Link to='/donation'>Donation</Link>
             </section>

@@ -1,30 +1,6 @@
-#headpic{
-    width: 50px;
-    margin: 10px;
-    display: inline;
-  margin-left: auto;
-  margin-right: auto;
-}
-.gap{
-    margin: 10%;
-    color: black;
-    
-}
-.gap:link{
-    text-decoration: none;
-}
-.gap:visited{
-    text-decoration: none;
-}
-.gap:hover{
-    text-decoration: none;
-}
-.gap:active{
-    text-decoration: none;
-}
 .grid-container-element { 
     display: grid; 
-    grid-template-columns: 1fr 1fr; 
+    grid-template-columns: 1fr 1fr 1fr; 
     grid-gap: 20px; 
     width: 33%; 
 } 
@@ -33,6 +9,7 @@
 }
 .symbolImg{
     display: inline;
+    width: 347.5px;
 }
 .top-color{
     background-color: #ebedfb;

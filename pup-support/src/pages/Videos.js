@@ -1,5 +1,6 @@
 import '../css/styleVideo.css';
-import materialsymbolstvoutlinerounded from "../assets/material-symbols_tv-outline-rounded.png";
+import img1 from '../assets/videoImg1.png';
+
 /**
  * Pupsupport resources page for youtube videos
  */
@@ -16,7 +17,7 @@ function Videos() {
 				<a href="back">Back</a>
 				<p>PupSupport Youtube</p>
 				<a href="https://www.youtube.com/@pupsupport6799" title='youtube link'><button>Subscribe to Pup's Channel</button></a>
-				<img src="materialsymbolstvoutlinerounded" class="symbolImg" alt="material-symbols_tv-outline-rounded" />
+				<img src={img1} class="symbolImg" alt="material-symbols_tv-outline-rounded" />
 			</section>
 			<section>
 				<h1>Educational Videos</h1>
