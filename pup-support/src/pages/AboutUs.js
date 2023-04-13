@@ -1,7 +1,7 @@
-import pupsupportValues from '../assets/aboutUsValues.png';
-import pupsupportDog from '../assets/aboutUsDog.png';
-import pupsupportScratches from '../assets/aboutUsScratches.png';
-import aboutUsBg1 from '../assets/aboutUsBg1.png';
+import pupsupportValues from '../assets/about_us_images/aboutUsValues.png';
+import pupsupportDog from '../assets/about_us_images/aboutUsDog.png';
+import pupsupportScratches from '../assets/about_us_images/aboutUsScratches.png';
+import aboutUsBg1 from '../assets/about_us_images/aboutUsBg1.png';
 import '../css/aboutUs.css';
 
 /**
