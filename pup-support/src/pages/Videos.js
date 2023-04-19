@@ -4,14 +4,12 @@ import img1 from '../assets/videoImg1.png';
 /**
  * Pupsupport resources page for youtube videos
  */
-
 function Videos() {
     // Related functions here
 
     // HTML/React components here to render page
     return (
         <div>
-            {/* Arvin, replace this with your videos code */}
             <main>
 			<section class="top-color">
 				<a href="back">Back</a>

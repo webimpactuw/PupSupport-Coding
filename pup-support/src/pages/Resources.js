@@ -9,7 +9,6 @@ function Resources() {
     // HTML/React components here to render page
     return (
         <div>
-            {/* Sam, replace this with your resources code */}
             <p>This is the resources page</p>
 
             <section class="left-main">
@@ -22,7 +21,7 @@ function Resources() {
                 </div>
             </section>
 
-            {/*add links to other pages */}
+            {/* links to other resource pages */}
             <section class="resources-links">
                 <ul>
                     <li><Link to='/mental-health-resource'>Resources Websites</Link></li>
@@ -30,10 +29,6 @@ function Resources() {
                     <li><Link to='/podcast'>PupSupport Podcast</Link></li>
                 </ul>
             </section>
-
-            
-            {/* example of how linking will work */}
-            <Link to='/videos'>Videos</Link>
         </div>
     );
 }

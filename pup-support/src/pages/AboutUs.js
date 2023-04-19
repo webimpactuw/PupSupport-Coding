@@ -2,6 +2,7 @@ import pupsupportValues from '../assets/about_us_images/aboutUsValues.png';
 import pupsupportDog from '../assets/about_us_images/aboutUsDog.png';
 import pupsupportScratches from '../assets/about_us_images/aboutUsScratches.png';
 import aboutUsBg1 from '../assets/about_us_images/aboutUsBg1.png';
+import { Link } from 'react-router-dom';
 import '../css/aboutUs.css';
 
 /**
@@ -43,6 +44,7 @@ function AboutUs() {
                     <h1 className="text-center">Who We Are</h1>
                     <h2>Who</h2>
                     <p>Pup Support is a student-led organization, at the University of Washington based in Seattle, with a focus on providing mental health resources to college students creatively.</p>
+                    <p>Learn more about our team <Link to='/our-team'>here</Link></p>
                     <h2>What</h2>
                     <p>By using art and graphic designs, we hope to capture the essence of college life with a purpose to build community awareness on mental health for students.</p>
                     <h2>Why</h2>
