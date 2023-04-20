@@ -12,7 +12,7 @@ function Resources() {
             <p>This is the resources page</p>
 
             <section class="left-main">
-                <img src = "/pup-support/illust/pup_tilting.png" alt = "Pup Tilting Pic"/>
+                <img src = "../src/assets/pup_tilting.png" alt = "Pup Tilting Pic"/>
                 <h2>Resources</h2>
 
                 <div class="disclaimer">
