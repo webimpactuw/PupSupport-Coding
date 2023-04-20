@@ -16,12 +16,19 @@ function AboutUs() {
         <div>
             {/* Section 1 */}
             <section className="intro">
-                <div className="container">
-                    <h1>Starting the Conversation</h1>
-                    <p>Taking care of your mental health isn't an afterthought, it's essential.</p>
-                    <p>By using art and graphic designs, we hope to capture the essence of college life with the purpose to build community awareness on mental health for students.</p>
-                    <img src={pupsupportDog} />
-                    <img src={pupsupportScratches} />
+                <div className="d-flex flex-row mb-3 cols">
+                    <div className='col-6 convo'>
+                        <h1 className="pt-5">Starting the Conversation</h1>
+                        <p>Taking care of your mental health isn't an afterthought, it's essential.</p>
+                        <p>By using art and graphic designs, we hope to capture the essence of college life with the purpose to build community awareness on mental health for students.</p>
+                    </div>
+                    <div className='col-6 introImgs'>
+                        <img className="pupIntroImg" src={pupsupportDog} />
+                        <img className="scratchIntroImg" src={pupsupportScratches} />
+                    </div>
+                    {/* <div className='col-2'>
+                        
+                    </div> */}
                 </div>
             </section>
             
@@ -63,7 +70,7 @@ function AboutUs() {
             </section>
 
             {/* Section 5 */}
-            <section className="pupImage">
+            <section className="valuesImage">
                 <img src={pupsupportValues} alt='PupSupport text and dog listenting to music' />
             </section>
 
