@@ -1,16 +1,29 @@
 /* General styling persistent accross app pages */
 
+* {
+  font-family: 'Futura Std', sans-serif;
+  color: black !important;
+}
+
+Link {
+  text-decoration: none !important; 
+}
+
+a {
+  text-decoration: none !important;
+}
+
 /* Header styling */
 #nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   height: 4em;
-  background-color: rgb(180, 141, 244);
+  padding: 0em 9em 0em 9em;
+  border-bottom: 2px solid rgba(211, 211, 211, 0.373);
 }
 
 #nav > * {
   margin-top: 1.5em;
-  padding: 0em 4em 4em 4em;
 }
 
 #home-button {
@@ -18,15 +31,24 @@
   height: 93px;
   width: 110px;
   margin: 0em;
-  padding: 0em;
-  background-color: rgb(180, 141, 244);
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid rgba(211, 211, 211, 0.373); */
 }
 
-img {
-  width: 4em;
+#nav img {
+  width: 6em;
   padding: 1em;
-  margin-left: auto;
-  margin-right: auto
 }
 
 /* Footer styling */
+
+#footer {
+  /* position: sticky; */
+  left: 0;
+  bottom: 0;
+}
+
+#footer img {
+  width: 100%;
+}

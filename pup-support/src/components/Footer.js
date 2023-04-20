@@ -7,8 +7,9 @@ import footer from '../assets/footer-rectangle.png'
  */
 function Footer() {
     return(
-        <div>
-            <img src={footer} style={'width: 100%'} alt="Footer background"></img>
+        <div id='footer'>
+
+            <img src={footer} alt="Footer background"></img>
         </div>
     );
 }

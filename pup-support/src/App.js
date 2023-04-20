@@ -1,6 +1,7 @@
 import './css/App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from './components/Header';
+import Footer from './components/Footer';
 import Home from './pages/Home';
 import Resources from './pages/Resources';
 import OurTeam from './pages/OurTeam';
@@ -9,7 +10,7 @@ import AboutUs from './pages/AboutUs';
 import Podcast from './pages/Podcast';
 import PodcastDetails from './pages/PodcastDetails';
 
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 // import Merch from './pages/Merch';
 // import Donation from './pages/Donation';
 
@@ -33,6 +34,7 @@ function App() {
 
         <Route path='donation' element={<Donation/>} /> */}
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 }
