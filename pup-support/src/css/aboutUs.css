@@ -1,20 +1,49 @@
 .intro {
-    background-image: url("../assets/about_us_images/aboutUsBg1.png");
+    background-image: url("../assets/about_us_images/aboutUsBg1.png ");
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    height: 90vh;
 }
 
 .mission {
     background-color: #F0F8E7;
 }
 
-.pupImage {
+.valuesImage {
     background-color: #EBEDFB;
 }
 
-.pupImage img {
+.valuesImage img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 30%;
+}
+
+.convo {
+    padding-left: 7rem;
+}
+
+.cols {
+    padding-top: 7rem;
+}
+
+.introImgs {
+    padding-left: 5rem;
+    padding-top: -5rem;
+}
+
+.pupIntroImg {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    width: 75%;
+    height: auto;
+    padding: 5rem 0 0 0;
+}
+
+.scratchIntroImg {
+    margin-left: auto;
+    width: 25%;
+    height: auto;
+    padding: 0 0 5rem 0;
 }

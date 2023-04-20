@@ -6,7 +6,7 @@ import Resources from './pages/Resources';
 import OurTeam from './pages/OurTeam';
 import Videos from './pages/Videos';
 import AboutUs from './pages/AboutUs';
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 // import Merch from './pages/Merch';
 // import Donation from './pages/Donation';
 
