@@ -11,8 +11,8 @@ function Header() {
     return(
         <div>
             <section id='nav'>
-                <Link className="nav-item" to='/about'>About</Link>
-                <Link className="nav-item" to='/resources'>Resources</Link>
+                <Link to='/about'>About</Link>
+                <Link to='/resources'>Resources</Link>
                 <section id='home-button'>
                     <Link to='/'><img src={puphome} alt="Pup home icon"></img></Link>
                 </section>

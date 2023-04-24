@@ -1,13 +1,17 @@
 import './css/App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from './components/Header';
+import Footer from './components/Footer';
 import Home from './pages/Home';
 import Resources from './pages/Resources';
 import OurTeam from './pages/OurTeam';
 import PodcastDetails from './pages/PodcastDetails';
 import Videos from './pages/Videos';
 import AboutUs from './pages/AboutUs';
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import Podcast from './pages/Podcast';
+import PodcastDetails from './pages/PodcastDetails';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 // import Merch from './pages/Merch';
 // import Donation from './pages/Donation';
 
@@ -23,6 +27,8 @@ function App() {
         <Route path='/podcast' element={<PodcastDetails />} />
         <Route path='/resources' element={<Resources/>} />
         <Route path='/videos' element={<Videos/>} />
+        <Route path='/podcast' element={<Podcast/>} />
+        <Route path='/PodcastDetails' element={<PodcastDetails/>} />
 
         <Route path='/' exact element={<Home/>} />
 
@@ -30,6 +36,7 @@ function App() {
 
         <Route path='donation' element={<Donation/>} /> */}
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 }
