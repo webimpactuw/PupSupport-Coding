@@ -1,5 +1,7 @@
-import pupsupportStressed from '...png';
+// import pupsupportStressed from '...png';
 import { Link } from 'react-router-dom';
+
+import "../css/podcast_detail.css";
 
 /**
  * Pupsupport home resource page 
@@ -18,7 +20,7 @@ function PodcastDetails() {
 
                     {/* attach a playable audio file, idk how for now */}
 
-                    <img src={pupsupportStressed} />
+                    {/* <img src={pupsupportStressed} /> */}
                 </div>
             </section>
             
