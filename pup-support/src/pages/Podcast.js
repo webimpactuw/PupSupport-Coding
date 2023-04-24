@@ -1,8 +1,9 @@
+import { Link } from 'react-router-dom';
+
 import '../css/podcastStyle.css';
 import dancing from '../assets/podcast_images/PupDancing.png';
 import singing from '../assets/podcast_images/Singingpup.png';
 import play from '../assets/podcast_images/play.png';
-
 
 /**
  * Pupsupport resources page for youtube videos
@@ -41,7 +42,7 @@ function Podcast() {
 				<h2>Popular Episodes</h2>
                 <h3>Podcast Name</h3>
                 <p>Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ipsam!</p>
-                <button><Link to='/PodcastDetails'>Podcast Details</Link></button>                
+                <button><Link to='/PodcastDetails'>Podcast Details</Link></button>
 			</section>
 		</main>
         </div>

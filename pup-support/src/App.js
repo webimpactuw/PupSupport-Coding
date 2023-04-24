@@ -5,13 +5,11 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Resources from './pages/Resources';
 import OurTeam from './pages/OurTeam';
-import PodcastDetails from './pages/PodcastDetails';
 import Videos from './pages/Videos';
 import AboutUs from './pages/AboutUs';
 import Podcast from './pages/Podcast';
 import PodcastDetails from './pages/PodcastDetails';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
 // import Merch from './pages/Merch';
 // import Donation from './pages/Donation';
 
