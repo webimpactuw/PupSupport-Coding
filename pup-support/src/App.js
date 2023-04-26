@@ -10,6 +10,7 @@ import AboutUs from './pages/AboutUs';
 import Podcast from './pages/Podcast';
 import PodcastDetails from './pages/PodcastDetails';
 
+
 // import Merch from './pages/Merch';
 // import Donation from './pages/Donation';
 
@@ -22,7 +23,6 @@ function App() {
         <Route path='/our-team' element={<OurTeam/>} />
 
         {/* Resources related routes */}
-        <Route path='/podcast' element={<PodcastDetails />} />
         <Route path='/resources' element={<Resources/>} />
         <Route path='/videos' element={<Videos/>} />
         <Route path='/podcast' element={<Podcast/>} />
