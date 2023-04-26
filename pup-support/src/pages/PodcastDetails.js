@@ -8,13 +8,14 @@ import "../css/podcast_detail.css";
  */
 function PodcastDetails() {
     // Related functions here
-
+    
+    <Link to='/podcast'>Back</Link>
     // HTML/React components here to render page
     return (
         <div>
             {/* Section 1 */}
             <section className="top">
-                <div className="container">
+                <div className="container-top">
                     <h2>Podcast Name</h2>
                     <p>With A & B</p>
 
@@ -26,7 +27,7 @@ function PodcastDetails() {
             
             {/* Section 2 */}
             <section className='details'>
-                <div className="container">
+                <div className="container-details">
                     <h3>Description</h3>
                     <p>Lorem ....</p>
 

@@ -1,15 +1,25 @@
 .top {
-    background-color: #5d5dc2;
+    background-color: #ebedfb;
     background-size: 100% 100%;
+    width: 1440px;
+    height: 515px;
+}
+
+.container-top{
+    width: 269px;
+    height: 53px;
+    position: relative;
+    left: 30px;
+    margin-bottom: 2rem;
 }
 
 .details {
-    background-color: #f8f9ff;
+    background-color: white;
 }
 
 h2 {
     color: black;
-    font-family: verdana;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 300%;
 }
 

@@ -1,5 +1,7 @@
+import pup1 from '../assets/pup_tilting.png'
 import { Link } from 'react-router-dom';
 
+import "../css/resources.css";
 /**
  * Pupsupport home resource page 
  */
@@ -11,18 +13,18 @@ function Resources() {
         <div>
             <p>This is the resources page</p>
 
-            <section class="left-main">
-                <img src = "../src/assets/pup_tilting.png" alt = "Pup Tilting Pic"/>
+            <section className="left-main">
+                <img src = {pup1} alt = "Pup Tilting Pic"/>
                 <h2>Resources</h2>
 
-                <div class="disclaimer">
+                <div className="disclaimer">
                     <p>Diclaimer: We are not licensed or trained professionals. All of the information we share and create
                     is collected from existing resources, academic papers, and resources provided by professionals.</p>
                 </div>
             </section>
 
             {/* links to other resource pages */}
-            <section class="resources-links">
+            <section className="resources-links">
                 <ul>
                     <li><Link to='/mental-health-resource'>Resources Websites</Link></li>
                     <li><Link to='/videos'>PupSupport YouTube</Link></li>
