@@ -44,11 +44,59 @@ a {
 /* Footer styling */
 
 #footer {
-  /* position: sticky; */
+  position: relative;
   left: 0;
   bottom: 0;
 }
 
-#footer img {
+#footer > img {
+  position: relative;
+  top: 10;
+  left: 0;
   width: 100%;
+}
+
+#footer-l {
+  position: absolute;
+  bottom: 3em;
+  left: 4em;
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#footer-pup {
+  width: 10em;
+}
+
+#footer-r {
+  position: absolute;
+  bottom: 5em;
+  right: 3em;
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#disclaimer {
+  position: absolute;
+  bottom: 4em;
+  right: 3em;
+}
+
+#credits {
+  position: absolute;
+  bottom: 1em;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#credits > img {
+  width: 1.5em;
+  height: 1.5em;
 }

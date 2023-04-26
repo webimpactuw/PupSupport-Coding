@@ -1,5 +1,5 @@
 import React from 'react';
-import puphome from '../assets/puphome.png'; 
+import pup_home from '../assets/pup_home.png'; 
 import { Link } from 'react-router-dom';
 import '../css/App.css'
 
@@ -14,7 +14,7 @@ function Header() {
                 <Link to='/about'>About</Link>
                 <Link to='/resources'>Resources</Link>
                 <section id='home-button'>
-                    <Link to='/'><img src={puphome} alt="Pup home icon"></img></Link>
+                    <Link to='/'><img src={pup_home} alt="Pup home icon"></img></Link>
                 </section>
                 <Link to='/merch'>Merch</Link>
                 <Link to='/donation'>Donation</Link>
