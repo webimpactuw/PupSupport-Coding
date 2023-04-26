@@ -7,3 +7,11 @@
 .play{
     width: 30px;
 }
+.rect{
+    width: 250px;
+    margin-right: 10%;
+    display: inline;
+}
+.pop_eps{
+display: grid;
+}

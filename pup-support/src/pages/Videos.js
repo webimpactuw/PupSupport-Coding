@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import '../css/styleVideo.css';
 import img1 from '../assets/videoImg1.png';
 
@@ -11,17 +12,19 @@ function Videos() {
     return (
         <div>
             <main>
-			<section class="top-color">
-				<a href="back">Back</a>
-				<p>PupSupport Youtube</p>
-				<a href="https://www.youtube.com/@pupsupport6799" title='youtube link'><button>Subscribe to Pup's Channel</button></a>
-				<img src={img1} class="symbolImg" alt="material-symbols_tv-outline-rounded" />
+			<section className="top-color">
+				<sectio className='topsec'>
+					<a href="back"><Link to='/Resources'>Back</Link></a>
+					<p>PupSupport Youtube</p>
+					<a href="https://www.youtube.com/@pupsupport6799" title='youtube link' target={"_blank"}><button>Subscribe to Pup's Channel</button></a>
+				</sectio>
+				<img src={img1} className="symbolImg" alt="material-symbols_tv-outline-rounded" />
 			</section>
 			<section>
 				<h1>Educational Videos</h1>
 				<p>Most recent</p>
-				<div class="grid-container-element">
-					<div class="grid-child-element">
+				<div className="grid-container-element">
+					<div className="grid-child-element">
 						<iframe width="420" height="315" title="video1" src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0"></iframe>
 						<p>
 							Description: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam numquam ex laboriosam dolorum id! Iste cumque hic at autem voluptate, placeat non quasi ipsum
@@ -29,7 +32,7 @@ function Videos() {
 							quas commodi minus ad fugit!
 						</p>
 					</div>
-					<div class="grid-child-element">
+					<div className="grid-child-element">
 						<iframe width="420" height="315" title="video2" src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0"></iframe>
 						<p>
 							Description: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam numquam ex laboriosam dolorum id! Iste cumque hic at autem voluptate, placeat non quasi ipsum
@@ -37,7 +40,7 @@ function Videos() {
 							quas commodi minus ad fugit!
 						</p>
 					</div>
-					<div class="grid-child-element">
+					<div className="grid-child-element">
 						<iframe width="420" height="315" title="video3" src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0"></iframe>
 						<p>
 							Description: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam numquam ex laboriosam dolorum id! Iste cumque hic at autem voluptate, placeat non quasi ipsum
