@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
  */
 function Footer() {
     return(
-        <div id='footer'>
+        <div id="footer">
             <img src={footer_rectangle} alt="Footer background"></img>
 
             <div>
@@ -19,34 +19,36 @@ function Footer() {
                     <form>
                         <p>Email:</p>
                         <input type="text" name="email" id="email-input"></input>
-                        {/* <input type="submit" id="email-sub-button">Subscribe Now</input> */}
+                        <br></br>
+                        <button>Subscribe Now</button>
+                        {/* <input type="submit" value="Subscribe Now" id="email-sub-button">Subscribe Now</input> */}
                     </form> 
                 </div>
                 
                 <div id="footer-r">
-                    <div>
-                        <p>Useful Links</p>
-                        <p><Link to='/about'>About Us</Link></p>
-                        <p><Link to='/resources'>Resources</Link></p>
+                    <div id="footer-links">
+                        <div>
+                            <p>USEFUL LINKS</p>
+                            <p><Link to='/about'>About Us</Link></p>
+                            <p><Link to='/resources'>Resources</Link></p>
+                        </div>
+                        
+                        <div>
+                            <p>CONTACT</p>
+                            <p>spup.uw@gmail.com</p>
+                            <p>pupsupport@uw.edu</p>
+                            <a href="https://linktr.ee/pupsupport">https://linktr.ee/pupsupport</a>
+                        </div>
                     </div>
-                    
-                    <div>
-                        <p>Contact</p>
-                        <p>spup.uw@gmail.com</p>
-                        <p>pupsupport@uw.edu</p>
-                        <a href="https://linktr.ee/pupsupport">https://linktr.ee/pupsupport</a>
-                    </div>
+                    <p id="disclaimer">If you are experiencing a crisis or have an emergency that needs immediate help, call 911.</p>
                 </div>
-
-                <p id="disclaimer">If you are experiencing a crisis or have an emergency that needs immediate help, call 911.</p>
             </div>
 
-            <section id="credits">
+            <div id="credits">
                 <img src={copywrite} alt="copywrite icon"></img>
                 <p>2023 PupSupport</p>
                 <p>Made with <a href="https://dubvelopersuw.org">Dubvelopers</a></p>
-            </section>
-            
+            </div>
         </div>
     );
 }
