@@ -17,7 +17,7 @@ function Podcast() {
         <div>
             <main>
 			<section>
-            	<a href="back"><Link to='/Resources'>Back</Link></a>
+				<a href="back" className='back'><Link to='/Resources'>Back</Link></a>
 				<h2>Podcast</h2>
 				<p>Real-talk on mental Health: Tune in for expert tips and personal experience on improving well-being and self-care.</p>
 				<img src={dancing} class="dancing" alt="pupdancing" />
@@ -28,15 +28,9 @@ function Podcast() {
 				<h3>Podcast Name</h3>
 				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias nihil iste maxime a sed molestias deleniti beatae rerum dolores dolorem?</p>
 				<img src={play} class="play" alt="play" />
-                {/* <iframe
-					style="border-radius: 12px"
-					src="https://open.spotify.com/embed/track/0yLdNVWF3Srea0uzk55zFn?utm_source=generator"
-					width="20%"
-					height="50"
-					frameborder="0"
-					allowfullscreen=""
-					allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-					loading="lazy"></iframe> */}
+				<audio controls>
+				  <source src="" type="audio/mpeg"></source>
+				</audio>
 				<p>More Podcasts</p>
 			</section>
 			<section>
@@ -44,7 +38,7 @@ function Podcast() {
                 <img src={rect} class="rect" alt="rect" />
                 <h3 className='pop_eps'>Podcast Name</h3>
                 <p className='pop_eps'>Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ipsam!</p>
-                <button><Link to='/PodcastDetails'>Podcast Details</Link></button>
+                <button><Link to='/PodcastDetails'>Duration</Link></button>
 			</section>
 		</main>
         </div>

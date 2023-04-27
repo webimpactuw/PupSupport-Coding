@@ -13,16 +13,20 @@ function Videos() {
         <div>
             <main>
 			<section className="top-color">
-				<sectio className='topsec'>
-					<a href="back"><Link to='/Resources'>Back</Link></a>
-					<p>PupSupport Youtube</p>
-					<a href="https://www.youtube.com/@pupsupport6799" title='youtube link' target={"_blank"}><button>Subscribe to Pup's Channel</button></a>
-				</sectio>
+			<a href="back" className='back'><Link to='/Resources'>Back</Link></a>
+			<section className='top-separate'>
+			<section className='topsec'>
+					<h1 className='title'>PupSupport Youtube</h1>
+					<a className='title' href="https://www.youtube.com/@pupsupport6799" title='youtube link' target={"_blank"}><button className='button'>Subscribe to Pup's Channel</button></a>
+				</section>
 				<img src={img1} className="symbolImg" alt="material-symbols_tv-outline-rounded" />
 			</section>
+			</section>
 			<section>
-				<h1>Educational Videos</h1>
-				<p>Most recent</p>
+				<section className='botsec'>
+					<h1>Educational Videos</h1>
+					<p>Most recent</p>
+				</section>
 				<div className="grid-container-element">
 					<div className="grid-child-element">
 						<iframe width="420" height="315" title="video1" src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0"></iframe>
