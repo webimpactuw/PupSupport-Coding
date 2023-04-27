@@ -1,3 +1,7 @@
+.bg {
+    background-color: #FCFCFB;
+}
+
 .intro {
     background-image: url("../assets/about_us_images/aboutUsBg1.png ");
     background-repeat: no-repeat;
@@ -5,7 +9,7 @@
     height: 90vh;
 }
 
-.mission {
+.green-bg {
     background-color: #F0F8E7;
 }
 
@@ -17,20 +21,23 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: 60%;
 }
 
 .convo {
+    font-size: 1.3rem;
+    line-height: 2.2rem;
     padding-left: 7rem;
 }
 
 .cols {
-    padding-top: 7rem;
+    padding-top: 4rem;
 }
 
 .introImgs {
     padding-left: 5rem;
     padding-top: -5rem;
+    padding-right: 0;
 }
 
 .pupIntroImg {
@@ -46,4 +53,106 @@
     width: 25%;
     height: auto;
     padding: 0 0 5rem 0;
+}
+
+.headers {
+    font-size: 3rem;
+}
+
+.offers {
+    padding-bottom: 10rem;
+}
+
+.subheaders h2 {
+    font-size: 1.7rem;
+    margin: auto;
+    margin-left: 0;
+}
+
+.p-default p {
+    font-size: 1.3rem;
+    margin: auto;
+    margin-left: 0;
+}
+
+.line-offer {
+    margin-left: .75rem;
+    width: 93%;
+}
+
+.offer {
+    padding: 1.5rem 0 1.5rem .75rem;
+}   
+
+.who {
+    padding: 2rem 3rem 3rem 3rem;
+}
+
+.what {
+    background-image: url('../assets/about_us_images/whatRectangle.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 2rem 3rem 3rem 3rem;
+    z-index: 950;
+}
+
+.why {
+    background-image: url('../assets/about_us_images/whyRectangle.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 2rem 3rem 3rem 5rem;
+    margin-left: -3rem;
+    z-index: 900;
+}
+
+.line-values {
+    width: 15%;
+}
+
+.section6-format ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.values-card {
+    margin: 3rem;
+    padding: 1rem 3rem 1rem 3rem;
+    background: #F7F8FC;
+    border-radius: 30px;
+}
+
+.values-sub {
+    font-weight: 500;
+}
+
+.arrowImg {
+    height: 2.5%;
+    width: 2.5%;
+    margin-left: -2rem;
+}
+
+.values-list {
+    padding-left: 1rem;
+}
+
+.section4-format {
+    line-height: 1.6rem;
+    padding-left: 7rem;
+    padding-right:  7rem;
+}
+
+.section5-format {
+    line-height: 1.6rem;
+    padding: 4rem 7rem 6rem 7rem;
+}
+
+.section6-format {
+    line-height: 1.6rem;
+    padding: 0rem 7rem 6rem 7rem;
+}
+
+.section7-format {
+    line-height: 1.6rem;
+    padding: 4rem 7rem 10rem 7rem;
 }
