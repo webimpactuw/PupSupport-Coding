@@ -1,0 +1,96 @@
+.welcome-section {
+  background-color: #EBEDFB;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.disclaimer {
+  background-color: #C4C9DC;
+  height: 6em;
+  padding-right: 5.5em;
+  padding-left: 5.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pup-story {
+  background-color: #F6F8F9;
+  height: 14em;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 6em;
+}
+
+.home-button {
+  background-color: #EAC3B5;
+  color: black;
+  border: none;
+  border-radius: 8px;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+.help {
+  color: #317773 !important;
+}
+
+.overview-item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0.5em;
+}
+
+.sub-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.overview-container {
+  width: 80%;
+}
+
+#overview-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2.5em;
+  padding-bottom: 6em;
+}
+
+.view-img-1 {
+  margin-right: 6em;
+}
+
+.view-img-2 {
+  margin-left: 6em;
+}
+
+.resources {
+  background-color: #C4C9DC;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.resource-contents {
+  padding: 6em;
+}
+
+.over-head {
+  margin-top: 0.8em;
+}
+
+.img-links {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}

@@ -1,4 +1,4 @@
-import pup1 from '../assets/pup_tilting.png'
+import pup1 from '../assets/resources_images/intro_textbox.png'
 import { Link } from 'react-router-dom';
 
 import "../css/resources.css";
@@ -10,12 +10,15 @@ function Resources() {
 
     // HTML/React components here to render page
     return (
-        <div>
-            <p>This is the resources page</p>
 
+        <div>
             <section className="left-main">
-                <img src = {pup1} alt = "Pup Tilting Pic"/>
-                <h2>Resources</h2>
+                
+                <div className='title-container'>
+                    <img className = "textBox" src = {pup1} alt='a Background Text Box'/>
+                    <h2 className='title'>Resources</h2>
+                </div>
+                
 
                 <div className="disclaimer">
                     <p>Diclaimer: We are not licensed or trained professionals. All of the information we share and create
@@ -25,11 +28,11 @@ function Resources() {
 
             {/* links to other resource pages */}
             <section className="resources-links">
-                <ul>
-                    <li><Link to='/mental-health-resource'>Resources Websites</Link></li>
-                    <li><Link to='/videos'>PupSupport YouTube</Link></li>
-                    <li><Link to='/podcast'>PupSupport Podcast</Link></li>
-                </ul>
+                
+                <button className='button-m'><Link to='/mental-health-resource'>Resources Websites</Link></button>
+                <button className='button-m'><Link to='/videos'>PupSupport YouTube</Link></button>
+                <button className='button-m'><Link to='/podcast'>PupSupport Podcast</Link></button>
+
             </section>
         </div>
     );
