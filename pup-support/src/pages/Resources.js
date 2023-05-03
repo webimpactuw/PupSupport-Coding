@@ -29,9 +29,9 @@ function Resources() {
             {/* links to other resource pages */}
             <section className="resources-links">
                 
-                <button className='button-m'><Link to='/mental-health-resource'>Resources Websites</Link></button>
-                <button className='button-m'><Link to='/videos'>PupSupport YouTube</Link></button>
-                <button className='button-m'><Link to='/podcast'>PupSupport Podcast</Link></button>
+                <Link to='/mental-health-resource'><button className='button-m'>Resources Websites</button></Link>
+                <Link to='/videos'><button className='button-m'>PupSupport YouTube</button></Link>
+                <Link to='/podcast'><button className='button-m'>PupSupport Podcast</button></Link>
 
             </section>
         </div>

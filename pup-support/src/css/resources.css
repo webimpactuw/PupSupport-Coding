@@ -2,6 +2,8 @@
     position: relative;
     width: 70%;;
     height: auto;
+    padding: 3em;
+    
 
 }
 
@@ -21,6 +23,7 @@
     line-height: 53px;
     left: 15%;
     top: 25%;
+    padding: 3em;
 }
 
 
@@ -29,8 +32,9 @@
     background-color: #C4C9DC;
     text-align: center;
     margin-top: 25px;
-    padding-inline: 50px;
-    padding-top: 20px;
+    /* padding-inline: 50px; */
+    padding: 5em;
+    /* padding-top: 20px; */
     position: absolute;
     top: 46.41%;
     bottom: 42.77%;
@@ -51,6 +55,7 @@
     height: 113.15px;
     text-align: left;
     padding-left: 50px;
+    margin: 10px;
     margin-left: 50px;
     
 

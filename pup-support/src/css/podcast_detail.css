@@ -6,15 +6,19 @@
 }
 
 .container-top{
-    width: 269px;
+    width: 500px;
     height: 53px;
+    flex: none;
     position: relative;
-    left: 30px;
-    margin-bottom: 2rem;
+    left: 50%;
+    top: 150px;
+    
 }
 
 .details {
     background-color: white;
+    margin-left: 6em;
+    margin-top: 3em;
 }
 
 h2 {
