@@ -3,15 +3,27 @@ import pupsupportDog from '../assets/about_us_images/aboutUsDog.png';
 import pupsupportScratches from '../assets/about_us_images/aboutUsScratches.png';
 import line from '../assets/about_us_images/line.png';
 import arrow from '../assets/about_us_images/valueArrow.png';
+import dropdown_btn from '../assets/about_us_images/dropdown_btn.png';
 import { Link } from 'react-router-dom';
 import '../css/aboutUs.css';
+import { useState } from 'react';
 
 /**
  * Pupsupport About Us Page
  */
 function AboutUs() {
     // Related functions here
+    const [isFlipped1, setIsFlipped1] = useState(false);
+    const [isFlipped2, setIsFlipped2] = useState(false);
 
+    const handleImageClick = (e) => {
+        const { target } = e;
+        if (target.id == "dropdown-1") {
+            setIsFlipped1(!isFlipped1);
+        } else if (target.id == "dropdown-2") {
+            setIsFlipped2(!isFlipped2);
+        }
+    };
     // HTML/React components here to render page
     return (
         <div className='bg'>
@@ -90,17 +102,29 @@ function AboutUs() {
             </section>
 
             {/* Section 6 */}
-            <section className='pt-3'>
-                <h1 className="text-center headers pt-5">Values</h1>
-                <div className='p-default section6-format'>
-                    <div className='values-card d-flex flex-row'>
+            <section>
+                <div className='d-flex flex-row dropdown-format align-items-center pt-5 pb-5'>
+                    <div className='col-2'>
+                        <img
+                            id="dropdown-1"
+                            src={dropdown_btn}
+                            className={`${!isFlipped1 ? 'dropdown' : ''} ${isFlipped1 ? 'flip-vertical' : ''}`}
+                            style={{ width: '5rem', height: '3rem' }}
+                            onClick={handleImageClick}
+                        />
+                    </div>
+                    <h1 className="text-center headers col-8 align-items-center">Values</h1>
+                    <div className='col-2'></div>
+                </div>
+                <div className='p-default section6-format' style={{ display: !isFlipped1 ? 'none' : 'block' }}>
+                    <div className='values-card d-flex flex-row mt-3'>
                         <img src={arrow} className='arrowImg' />
                         <div className='values-list'>
                             <p className='values-sub'>Empathy</p>
                             <img src={line} className='line-values' />
                             <ul>
                                 <li>We listen first.</li>
-                                <li>We do not value anyone’s experience or pain as greater or lesser than our own.</li>
+                                <li>We do not value anyone's experience or pain as greater or lesser than our own.</li>
                                 <li>We assume the best intentions of others and give people the benefit of the doubt.</li>
                                 <li>We operate from a place of curiosity instead of judgment.</li>
                                 <li>We understand that people make mistakes and we are all human.</li>
@@ -135,7 +159,7 @@ function AboutUs() {
                             <img src={line} className='line-values' />
                             <ul>
                                 <li>We listen first.</li>
-                                <li>We do not value anyone’s experience or pain as greater or lesser than our own.</li>
+                                <li>We do not value anyone's experience or pain as greater or lesser than our own.</li>
                                 <li>We assume the best intentions of others and give people the benefit of the doubt.</li>
                                 <li>We operate from a place of curiosity instead of judgment.</li>
                                 <li>We understand that people make mistakes and we are all human.</li>
@@ -150,18 +174,26 @@ function AboutUs() {
             </section>
             {/* Section 7 */}
             <section className='green-bg mb-5'>
-                <div className='p-default section7-format subheaders'>
-                    <h1 className='headers text-center pb-5'>Diversity, Equity & Inclusion</h1>
+                <div className='d-flex flex-row dropdown-format align-items-center pt-5 pb-5'>
+                    <div className='col-2'>
+                        <img
+                            id="dropdown-2"
+                            src={dropdown_btn}
+                            className={`dropdown align-items-center ${isFlipped2 ? 'flip-vertical' : ''}`}
+                            style={{ width: '5rem', height: '3rem' }}
+                            onClick={handleImageClick}
+                        />
+                    </div>
+                    <h1 className='headers text-center col-8 align-items-center'>Diversity, Equity & Inclusion</h1>
+                    <div className='col-2'></div>
+                </div>
+                <div className='p-default section7-format subheaders' style={{ display: !isFlipped2 ? 'none' : 'block' }}>
                     <h2 className='pb-3'>RACIAL EQUITY & IMPLICIT BIAS</h2>
                     <p>Pup Support recognizes, like many other systems in the United States, the mental health system is deeply impacted by institutional racism for people of color. Mental health stigma, culture, and systems impact people differently based on ethnicity, race, income, etc. Many individuals experience bias, discrimination, misdiagnosis, and also struggle finding support or therapy for their group. Pup Support believes all people have the right to mental health support. We hope to be a part of the process of advocating for safe, appropriate, respectful, accessible, and consistent mental health support. <br /><br /> We understand that racism and bias can be very subtle and even inflicted by those with good intentions. We will continue to work towards growing, learning, and checking our implicit bias. We understand the importance of continuously working towards addressing and eliminating racial inequalities within our organization, community, and more. Pup Support will hold our members accountable with respect, kindness, understanding, guidance, and forgiveness. We understand that every individual grew up in a different environment and we will strive to not invalidate or try to explain away someone’s personal experience. We hope to curate a learning community where mistakes are acknowledged and used as ways to grow and evolve.</p>
                     <h2 className='pb-3'><br />THE CONVERSATION GOES ON</h2>
                     <p>We acknowledge that these conversations don't stop here. As a team, we will continue to grow, shape, and rethink what mental health means for our organization and community. As a team, we will continue to have these conversations to ensure that Pup Support's work aligns with the goals of providing our community a safe and inclusive space to develop their understanding of their own mental health and the mental health of others.</p>
                 </div>
             </section>
-            
-            {/* <DropdownBar /> */}
-            {/* <Dropdown heading={"Values"} numCards={3} />
-            <Dropdown heading={"Diversity Equity & Inclusion"} numCards={1} /> */}
         </div>
     );
 }
