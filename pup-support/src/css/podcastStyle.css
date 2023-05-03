@@ -1,5 +1,9 @@
 .dancing{
     width: 293px;
+    display: block;
+    position: relative;
+    left: 10%;
+    top: 90px;
 }
 .singing{
     width: 270px;
@@ -14,4 +18,25 @@
 }
 .pop_eps{
 display: grid;
+}
+.text{
+    text-align: justify;
+    max-width: 70%;
+}
+.head{
+    position: relative;
+    left: 10%;
+    display: flex;
+    flex: none;
+}
+.topsec{
+    position: relative;
+    display: inline;
+}
+.mid{
+    position: relative;
+    /* width: 1439px;
+    height: 655px;
+    left: 0px;
+    top: 521px; */
 }

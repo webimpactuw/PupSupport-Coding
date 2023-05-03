@@ -136,6 +136,29 @@
     padding-left: 1rem;
 }
 
+.dropdown {
+    max-width: 25%;
+    height: auto;
+}
+
+.dropdown:hover {
+    transform: scale(1.25);
+}
+
+.dropdown-format {
+    padding: 0rem 7rem 0rem 7rem;
+}
+
+.flip-vertical {
+    max-width: 25%;
+    height: auto;
+    transform: scaleY(-1);
+}
+
+.flip-vertical:hover {
+    transform: scaleY(-1) scale(1.25);
+}
+
 .section4-format {
     line-height: 1.6rem;
     padding-left: 7rem;
@@ -154,5 +177,5 @@
 
 .section7-format {
     line-height: 1.6rem;
-    padding: 4rem 7rem 10rem 7rem;
+    padding: 0rem 7rem 10rem 7rem;
 }

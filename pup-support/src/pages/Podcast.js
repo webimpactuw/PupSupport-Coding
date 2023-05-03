@@ -16,13 +16,15 @@ function Podcast() {
     return (
         <div>
             <main>
-			<section>
-				<a href="back" className='back'><Link to='/Resources'>Back</Link></a>
+			<a href="back" className='back'><Link to='/Resources'>Back</Link></a>
+			<section className='head'>
+				<section className='topsec'>
 				<h2>Podcast</h2>
-				<p>Real-talk on mental Health: Tune in for expert tips and personal experience on improving well-being and self-care.</p>
+				<p className='text'>Real-talk on mental Health: Tune in for expert tips and personal experience on improving well-being and self-care.</p>
+				</section>
 				<img src={dancing} class="dancing" alt="pupdancing" />
 			</section>
-			<section>
+			<section className='mid'>
 				<h2>Recent Releases</h2>
 				<img src={singing} class="singing" alt="Singingpup" />
 				<h3>Podcast Name</h3>
