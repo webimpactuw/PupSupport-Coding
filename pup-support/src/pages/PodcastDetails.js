@@ -1,5 +1,6 @@
 // import pupsupportStressed from '...png';
 import { Link } from 'react-router-dom';
+import thumbnail from '../assets/podcast_images/Rectangle.png';
 
 import "../css/podcast_detail.css";
 
@@ -15,24 +16,30 @@ function PodcastDetails() {
         <div>
             {/* Section 1 */}
             <section className="top">
-                <div className="container-top">
-                    <h2>Podcast Name</h2>
-                    <p>With A & B</p>
+                <div className='container-top'>
+                    <img className="thumbnail" src={thumbnail} alt="thumbnail" />
+                    <div className="desc">
+                        <h2>Podcast Name</h2> 
+                        <p>With A & B</p>
 
-                    {/* attach a playable audio file, idk how for now */}
-
-                    {/* <img src={pupsupportStressed} /> */}
+                        {/* attach a playable audio file, idk how for now */}
+                    </div>
                 </div>
+
+                
             </section>
             
             {/* Section 2 */}
             <section className='details'>
                 <div className="container-details">
-                    <h3>Description</h3>
-                    <p>Lorem ....</p>
-
-                    <h3>Script</h3>
-                    <p>Lorem...</p>
+                    <div className='sub-item'>
+                        <h3>Description</h3>
+                        <p>Lorem ....</p>
+                    </div>
+                   <div className='sub-item'>
+                        <h3>Script</h3>
+                        <p>Lorem...</p>
+                   </div>
                 </div>
             </section>
         </div>

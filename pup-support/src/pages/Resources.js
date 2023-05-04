@@ -1,4 +1,4 @@
-import pup1 from '../assets/resources_images/intro_textbox.png'
+import pup1 from '../assets/resources_images/resourcesPage_logo.png'
 import { Link } from 'react-router-dom';
 
 import "../css/resources.css";
@@ -16,7 +16,6 @@ function Resources() {
                 
                 <div className='title-container'>
                     <img className = "textBox" src = {pup1} alt='a Background Text Box'/>
-                    <h2 className='title'>Resources</h2>
                 </div>
                 
 
