@@ -17,23 +17,22 @@
 .symbolImg{
     display: inline;
     width: 400px;
-    
-    /* top: 50%;
-    bottom: 50%; */
-    /* left: 25%; */
-    right: -40%;
+    left: 25%;
+    padding-bottom: 2em;
     position: relative;
 }
 .top-color{
     background-color: #ebedfb;
     width: 100%;
     position: relative;
+    z-index: -1;
+    
 }
 .topsec{
     display: inline;
     position: relative;
     top: 50px;
-    left: 80px;
+    padding-left: 10em;
 }
 .title{
     position: relative;
@@ -49,7 +48,7 @@
     text-align: center;
     text-decoration: solid;
     display: inline-block;
-    font-size: 50%;
+    font-size: 100%;
 }
 .top-separate{
     display: flex;
@@ -68,4 +67,8 @@ h1{
     position: relative;
     left: 80px;
     top: 50px;
+}
+.bott{
+    position: relative;
+    margin-bottom: 10em;
 }

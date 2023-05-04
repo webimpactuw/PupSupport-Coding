@@ -2,9 +2,9 @@ import { Link } from 'react-router-dom';
 
 import '../css/podcastStyle.css';
 import dancing from '../assets/podcast_images/PupDancing.png';
-import singing from '../assets/podcast_images/Singingpup.png';
-import play from '../assets/podcast_images/play.png';
+import singing from '../assets/podcast_images/Vector 2.png';
 import rect from '../assets/podcast_images/Rectangle.png';
+import duration from '../assets/podcast_images/duration.png';
 
 /**
  * Pupsupport resources page for youtube videos
@@ -19,28 +19,37 @@ function Podcast() {
 			<a href="back" className='back'><Link to='/Resources'>Back</Link></a>
 			<section className='head'>
 				<section className='topsec'>
-				<h2>Podcast</h2>
-				<p className='text'>Real-talk on mental Health: Tune in for expert tips and personal experience on improving well-being and self-care.</p>
+					<h2>Podcast</h2>
+					<p className='text'>Real-talk on mental Health: Tune in for expert tips and personal experience on improving well-being and self-care.</p>
 				</section>
 				<img src={dancing} class="dancing" alt="pupdancing" />
 			</section>
-			<section className='mid'>
-				<h2>Recent Releases</h2>
-				<img src={singing} class="singing" alt="Singingpup" />
-				<h3>Podcast Name</h3>
-				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias nihil iste maxime a sed molestias deleniti beatae rerum dolores dolorem?</p>
-				<img src={play} class="play" alt="play" />
-				<audio controls>
-				  <source src="" type="audio/mpeg"></source>
-				</audio>
-				<p>More Podcasts</p>
+			<section className='recent'>
+				<section className='mid'>
+					<section className='pic'>
+						<h2>Recent Releases</h2>
+						<img src={singing} class="singing" alt="Singingpup" />
+					</section>
+					<section className='name'>
+						<h3>Podcast Name</h3>
+						<p className='text'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias nihil iste maxime a sed molestias deleniti beatae rerum dolores dolorem?</p>
+						<iframe className='podcast' src="https://open.spotify.com/embed/track/3T03rPwlL8NVk1yIaxeD8U?utm_source=generator"></iframe>
+					</section>
+				</section>
 			</section>
-			<section>
-                <h2>Popular Episodes</h2>
-                <img src={rect} class="rect" alt="rect" />
-                <h3 className='pop_eps'>Podcast Name</h3>
-                <p className='pop_eps'>Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ipsam!</p>
-                <button><Link to='/PodcastDetails'>Duration</Link></button>
+			<section className='bottom'>
+				<section className='popular'>
+					<h2 className='text2'>Popular Episodes</h2>
+				</section>
+				<section className='bottom_border'>
+					<img src={rect} class="rect" alt="rect" />
+					<section className='last'>
+						<p>date</p>
+						<h3 className='pop_eps'>Podcast Name</h3>
+						<p className='pop_eps'>Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ipsam!</p>
+						<Link to='/PodcastDetails'><img src={duration} class="duration" alt="duration" /></Link>
+					</section>
+				</section>
 			</section>
 		</main>
         </div>

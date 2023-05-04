@@ -5,9 +5,6 @@ import overviewImg2 from '../assets/home_page_images/overview_img_2.png'
 import overviewImg3 from '../assets/home_page_images/overview_img_3.png'
 import overviewImg4 from '../assets/home_page_images/overview_img_4.png'
 import resourceImg from '../assets/home_page_images/resources_img.png'
-import textBubble1 from '../assets/home_page_images/text_bubble_1.png'
-import textBubble2 from '../assets/home_page_images/text_bubble_2.png'
-import textBubble3 from '../assets/home_page_images/text_bubble_3.png'
 import chatPup1 from '../assets/home_page_images/chat_pup_1.png'
 import chatPup2 from '../assets/home_page_images/chat_pup_2.png'
 import chatPup3 from '../assets/home_page_images/chat_pup_3.png'
@@ -27,16 +24,18 @@ function Home() {
                     <div className="welcome-content">
                         <h1>I am here to <span className="help">help</span></h1>
                         <p>Student-led organization with a focus on providing mental health resources to colleges students creatively through Instagram</p>
-                        <button className="home-button">About us</button>
+                        <button className="home-button">About Us</button>
                     </div>
                     <div className="img-links">
-                        <img src={welcomeImg1} alt="Hi! I'm pup"/>
-                        <a href="#" alt='Twitter'>Twitter img</a>
-                        <a href="#" alt='Facebook'>Facebook img</a>
-                        <a href="#" alt='Instagram'>Instagram img</a>
+                        <img className="main-img" src={welcomeImg1} alt="Hi! I'm pup"/>
+                        <div className="link-div">
+                            <a href="#" alt='Twitter'>Twitter img</a>
+                            <a href="#" alt='Facebook'>Facebook img</a>
+                            <a href="#" alt='Instagram'>Instagram img</a>
+                        </div>
                     </div>
                 </div>
-                <div className="disclaimer">
+                <div className="disclaimer-home">
                     <p>Disclaimer: We are not licensed professionals. All of the information we share and create is collected from existing resources, academic papers, and resources provided by professionals.</p>
                 </div>
             </section>
@@ -82,31 +81,50 @@ function Home() {
                 <div className="resource-contents">
                     <h2>Resources</h2>
                     <p>Find support and resources to improve your mental health and well-being.</p>
-                    <button className="home-button">Check Out</button>
+                    <button className="home-rec-button">Check Out</button>
                 </div>
-                <div>
-                    <img src={resourceImg} alt="Heart mirror pup"/>
+                <div className="img-div">
+                    <img className="resource-img" src={resourceImg} alt="Heart mirror pup"/>
                 </div>
             </section>
-            <section>
-                <h2>Community</h2>
-                <div>
-                    <img src={textBubble1} alt="Quote bubble"/>
-                    <p>Pup always brings brightness to my Instagram feed and reminds me to take care of myself and value my well-being.</p>
-                    <img src={chatPup1} alt="Quote pup"/>
-                    <p>@Ashley Cabatic</p>
+            <section className="community">
+                <div className="comm-head">
+                    <h2>Community</h2>
                 </div>
-                <div>
-                    <img src={textBubble2} alt="Quote bubble"/>
-                    <p>I appreciate the super cute posts and encouraging affirmations! They are helpful , especially right now, please keep it up!</p>
-                    <img src={chatPup2} alt="Quote pup"/>
-                    <p>@niastewart75</p>
-                </div>
-                <div>
-                    <img src={textBubble3} alt="Quote bubble"/>
-                    <p>I really love your Instagram page! Whoever is illustrating it is super talented, and the posts always make me happy, reminding me that I’m not alone in this!</p>
-                    <img src={chatPup3} alt="Quote pup"/>
-                    <p>@sh.ma_x</p>
+                <div className="community-con">
+                    <div className="community-container">
+                        <div className="community-sub-div">
+                            <img src={chatPup1} alt="Quote pup"/>
+                            <p>@Ashley Cabatic</p>
+                        </div>
+                        <div className="community-sub-div-centered1">
+                            <div>
+                                <p className="chat-p">Pup always brings brightness to my Instagram feed and reminds me to take care of myself and value my well-being.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="community-container">
+                        <div className="community-sub-div-centered2">
+                            <div>
+                                <p className="chat-p">I appreciate the super cute posts and encouraging affirmations! They are helpful , especially right now, please keep it up!</p>
+                            </div>
+                        </div>
+                        <div className="community-sub-div">
+                            <img src={chatPup2} alt="Quote pup"/>
+                            <p>@niastewart75</p>
+                        </div>
+                    </div>
+                    <div className="community-container">
+                        <div className="community-sub-div">
+                            <img src={chatPup3} alt="Quote pup"/>
+                            <p>@sh.ma_x</p>
+                        </div>
+                        <div className="community-sub-div-centered3">
+                            <div>
+                                <p className="chat-p">I really love your Instagram page! Whoever is illustrating it is super talented, and the posts always make me happy, reminding me that I’m not alone in this!</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
         </div>

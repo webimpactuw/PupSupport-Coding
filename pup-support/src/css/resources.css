@@ -1,45 +1,43 @@
-.textBox {
-    position: relative;
-    width: 70%;;
-    height: auto;
-    padding: 3em;
-    
-
-}
-
 .title-container {
     position: relative;
+    padding-top: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 8em;
 }
 
 .left-main {
-    display: flex;
-    justify-content: center;
     width: 50%;
 }
 
-.title {
-    position: absolute;
-    font-size: 44px;
-    line-height: 53px;
-    left: 15%;
-    top: 25%;
-    padding: 3em;
+.textBox {
+    position: relative;
+    width: 70%;
+    height: auto;
+    margin: 3em;
+    margin-bottom: 5em;
+    align-self: center;
+    justify-self: center;
+    /* border: 2px solid black; */
 }
-
-
 
 .disclaimer {
     background-color: #C4C9DC;
     text-align: center;
-    margin-top: 25px;
-    /* padding-inline: 50px; */
-    padding: 5em;
-    /* padding-top: 20px; */
+    margin-top: 50px;
+    padding: 4em;
     position: absolute;
-    top: 46.41%;
+    top: 80%;
     bottom: 42.77%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.p {
+    font-size: 70%;
+}
 
 .resources-links {
     background-color: #F0F8E7;
@@ -48,6 +46,10 @@
     height: 100%;
     right: 0%;
     top: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 8em;
 }
 
 .button-m {
@@ -77,4 +79,22 @@
     margin-top: 40px;
 }
 
+/* hover underline not working yet, will try to fix it */
+
+/* underline BEFORE hover */
+.button-m ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #B6C8A2;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+/* underline AFTER hover */
+.button-m ul li:hover::after{
+    width: 100%;
+}
 

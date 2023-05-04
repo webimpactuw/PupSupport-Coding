@@ -2,19 +2,13 @@
     width: 293px;
     display: block;
     position: relative;
-    left: 10%;
-    top: 90px;
+    right: 0%;
+    top: 8em;
 }
 .singing{
     width: 270px;
-}
-.play{
-    width: 30px;
-}
-.rect{
-    width: 250px;
-    margin-right: 10%;
-    display: inline;
+    margin-top: 5em;
+
 }
 .pop_eps{
 display: grid;
@@ -32,11 +26,76 @@ display: grid;
 .topsec{
     position: relative;
     display: inline;
+    left: -2.5%;
 }
 .mid{
     position: relative;
-    /* width: 1439px;
-    height: 655px;
-    left: 0px;
-    top: 521px; */
+    left: 10%;
+    top: 6em;
+}
+.recent {
+    background-image: url("../assets/podcast_images/Vectorblock.png ");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 70vh;
+    position: relative;
+    z-index: -1;
+
+}
+.pic{
+    position: relative;
+    display: inline;
+}
+.name{
+    position: relative;
+    display: block;
+    left: 40%;
+    top: -18em;
+    text-align: justify;
+    max-width: 50%;
+}
+.podcast{
+    width: 60%;
+    height: 10%;
+    border-radius: 10px;
+    box-shadow: none;
+    border: none;
+}
+.bottom{
+    position: relative;
+    background-color: #C4C9DC;
+    width: 80%;
+    height: 30em;
+    left: 10%;
+    top: 4em;
+    margin-bottom: 10em;
+}
+.popular{
+    background-color: #F0F8E7;
+    position: relative;
+}
+.text2{
+    position: relative;
+    padding: 0.5em 0.2em 0.5em 2em;
+}
+.bottom_border{
+    background-color: white;
+    position: relative;
+    border-radius: 17px;
+    height: 17em;
+    margin: 3em 3em 3em 3em;
+    
+}
+.last{
+    position: relative;
+    display: inline;
+    left: 30%;
+    top: -100%;
+    text-align: justify;
+    max-width: fit-content;
+}
+.rect{
+    width: 250px;
+    padding: 1em 1em 1em 1em;
+    display: block;
 }
