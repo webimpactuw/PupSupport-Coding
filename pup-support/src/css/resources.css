@@ -1,19 +1,22 @@
 .title-container {
     position: relative;
-    padding: 5em;
+    padding-top: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 8em;
 }
 
 .left-main {
-    display: flex;
-    justify-content: center;
     width: 50%;
 }
 
 .textBox {
     position: relative;
-    width: 100%;
+    width: 70%;
     height: auto;
     margin: 3em;
+    margin-bottom: 5em;
     align-self: center;
     justify-self: center;
     /* border: 2px solid black; */
@@ -25,12 +28,11 @@
     margin-top: 50px;
     padding: 4em;
     position: absolute;
-    top: 46.41%;
+    top: 80%;
     bottom: 42.77%;
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 
 .p {
@@ -44,6 +46,11 @@
     height: 100%;
     right: 0%;
     top: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 8em;
+    z-index: -1;
 }
 
 .button-m {
@@ -91,5 +98,4 @@
 .button-m ul li:hover::after{
     width: 100%;
 }
-
 

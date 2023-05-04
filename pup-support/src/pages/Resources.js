@@ -16,19 +16,18 @@ function Resources() {
                 
                 <div className='title-container'>
                     <img className = "textBox" src = {pup1} alt='a Background Text Box'/>
+                    <div className="disclaimer">
+                        <p>Diclaimer: We are not licensed or trained professionals. All of the information we share and create
+                        is collected from existing resources, academic papers, and resources provided by professionals.</p>
+                    </div>
                 </div>
-                
-
-                <div className="disclaimer">
-                    <p>Diclaimer: We are not licensed or trained professionals. All of the information we share and create
-                    is collected from existing resources, academic papers, and resources provided by professionals.</p>
-                </div>
+            
             </section>
 
             {/* links to other resource pages */}
             <section className="resources-links">
                 
-                <Link to='/mental-health-resource'><button className='button-m'>Resources Websites</button></Link>
+                <Link to='/mental-health-resource-home'><button className='button-m'>Resources Websites</button></Link>
                 <Link to='/videos'><button className='button-m'>PupSupport YouTube</button></Link>
                 <Link to='/podcast'><button className='button-m'>PupSupport Podcast</button></Link>
 

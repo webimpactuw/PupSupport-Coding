@@ -1,4 +1,3 @@
-// import pupsupportStressed from '...png';
 import { Link } from 'react-router-dom';
 import thumbnail from '../assets/podcast_images/Rectangle.png';
 
