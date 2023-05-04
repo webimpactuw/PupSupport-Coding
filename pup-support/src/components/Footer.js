@@ -3,6 +3,7 @@ import footer_rectangle from '../assets/footer_rectangle.png';
 import pup_home from '../assets/pup_home.png';
 import copywrite from '../assets/copywrite.png'
 import { Link } from 'react-router-dom';
+import '../css/HeaderFooter.css';
 
 /**
  * Footer found on every page containing:

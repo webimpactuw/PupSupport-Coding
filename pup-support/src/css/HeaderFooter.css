@@ -1,0 +1,128 @@
+/* Header styling */
+#header-img {
+    position: relative;
+    width: 100%;
+    top: 0;
+  }
+  
+  #nav {
+    /* position: absolute;
+    top: 0;
+    width: 100%; */
+    display: flex;
+    justify-content: space-around;
+    height: 4em;
+    padding: 0em 9em 0em 9em;
+    border-bottom: 2px solid rgba(211, 211, 211, 0.373);
+  }
+  
+  #nav > * {
+    margin-top: 1.5em;
+  }
+  
+  #home-button {
+    border-radius: 50%;
+    height: 93px;
+    width: 110px;
+    margin: 0em;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid rgba(211, 211, 211, 0.373); */
+  }
+  
+  #nav img {
+    width: 6em;
+    padding: 1em;
+  }
+  
+  /* Footer styling */
+  
+  #footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    min-width: 800px;
+  }
+  
+  #footer p, #footer a, #footer Link {
+    margin-bottom: .75em;
+    color: white !important;
+  }
+  
+  #footer > img {
+    position: relative;
+    top: 10;
+    left: 0;
+    width: 100%;
+  }
+  
+  #footer-l {
+    position: absolute;
+    top: 10.1em;
+    left: 0%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 9%;
+  }
+  
+  #footer-pup {
+    width: 10em;
+  }
+  
+  #footer input, #footer button {
+    height: 2.7em;
+    width: 12em;
+    border-radius: 2em;
+    border: .01em solid black;
+  }
+  
+  #footer button {
+    background-color: #EAC3B5;
+    margin-top: .75em;
+  }
+  
+  #footer-r {
+    position: absolute;
+    top: 9.1em;
+    left: 50%;
+    width: 50%;
+  }
+  
+  #footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-start;
+    gap: 35%;
+  }
+  
+  #disclaimer {
+    margin-top: 3em;
+    font-size: .7em;
+  }
+  
+  #credits {
+    position: absolute;
+    bottom: 2em;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #credits p {
+    font-size: .75em;
+    margin-bottom: 0;
+  }
+  
+  #credits p:first-of-type {
+    margin-right: 5em;
+  }
+  
+  #credits img {
+    width: 1.3em;
+    height: 1.3em;
+    margin-right: .5em;
+  }

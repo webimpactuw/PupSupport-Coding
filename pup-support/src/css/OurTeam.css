@@ -1,0 +1,31 @@
+.team-header {
+    font-size: 1.5em;
+}
+
+.dropdown-icon {
+    font-size: 2em;
+    text-align: end;
+}
+
+.img-group {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.team-img > img {
+    width: 12em;
+    height: 12em;
+}
+
+.img-group h3 {
+    font-size: 1.5em;
+    margin-bottom: 0;
+}
+
+.img-group p {
+    width: 12em;
+}
