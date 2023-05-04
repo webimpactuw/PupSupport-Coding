@@ -42,12 +42,16 @@
 
 .disclaimer-home {
   background-color: #C4C9DC;
-  height: 6em;
+  height: 7em;
   padding-right: 5.5em;
   padding-left: 5.5em;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.disclaimer-home p {
+  margin-top: 2em;
 }
 
 .pup-story {
@@ -196,18 +200,27 @@
 
 .community-sub-div-centered1 div {
   width: 60%;
-  padding-bottom: 5em;
+  padding-bottom: 7em;
   padding-left: 3.5em;
 }
 
 .chat-p {
   font-size: 1.1em;
+  margin-top: 0em;
+}
+
+.resource-img {
+  height: 100%;
+}
+
+.img-div {
+  height: 100%;
 }
 
 .community-sub-div-centered2 div {
   width: 50%;
   padding-top: 2em;
-  padding-bottom: 1em;
+  padding-bottom: 3em;
   padding-left: 5.5em;
 }
 
@@ -215,7 +228,7 @@
   width: 70%;
   padding-bottom: 1em;
   padding-left: 5.5em;
-  padding-bottom: 4em;
+  padding-bottom: 6em;
 }
 
 

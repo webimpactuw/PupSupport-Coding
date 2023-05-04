@@ -83,8 +83,8 @@ function Home() {
                     <p>Find support and resources to improve your mental health and well-being.</p>
                     <button className="home-rec-button">Check Out</button>
                 </div>
-                <div>
-                    <img src={resourceImg} alt="Heart mirror pup"/>
+                <div className="img-div">
+                    <img className="resource-img" src={resourceImg} alt="Heart mirror pup"/>
                 </div>
             </section>
             <section className="community">
