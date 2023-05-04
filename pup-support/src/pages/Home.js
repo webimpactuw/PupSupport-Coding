@@ -88,25 +88,41 @@ function Home() {
                     <img src={resourceImg} alt="Heart mirror pup"/>
                 </div>
             </section>
-            <section>
-                <h2>Community</h2>
-                <div>
-                    <img src={textBubble1} alt="Quote bubble"/>
-                    <p>Pup always brings brightness to my Instagram feed and reminds me to take care of myself and value my well-being.</p>
-                    <img src={chatPup1} alt="Quote pup"/>
-                    <p>@Ashley Cabatic</p>
+            <section className="community">
+                <div className="comm-head">
+                    <h2>Community</h2>
                 </div>
-                <div>
-                    <img src={textBubble2} alt="Quote bubble"/>
-                    <p>I appreciate the super cute posts and encouraging affirmations! They are helpful , especially right now, please keep it up!</p>
-                    <img src={chatPup2} alt="Quote pup"/>
-                    <p>@niastewart75</p>
-                </div>
-                <div>
-                    <img src={textBubble3} alt="Quote bubble"/>
-                    <p>I really love your Instagram page! Whoever is illustrating it is super talented, and the posts always make me happy, reminding me that I’m not alone in this!</p>
-                    <img src={chatPup3} alt="Quote pup"/>
-                    <p>@sh.ma_x</p>
+                <div className="community-con">
+                    <div className="community-container">
+                        <div className="community-sub-div">
+                            <img src={chatPup1} alt="Quote pup"/>
+                            <p>@Ashley Cabatic</p>
+                        </div>
+                        <div className="community-sub-div">
+                            <p>Pup always brings brightness to my Instagram feed and reminds me to take care of myself and value my well-being.</p>
+                            <img src={textBubble1} alt="Quote bubble"/>
+                        </div>
+                    </div>
+                    <div className="community-container">
+                        <div className="community-sub-div">
+                            <p>I appreciate the super cute posts and encouraging affirmations! They are helpful , especially right now, please keep it up!</p>
+                            <img src={textBubble2} alt="Quote bubble"/>
+                        </div>
+                        <div className="community-sub-div">
+                            <img src={chatPup2} alt="Quote pup"/>
+                            <p>@niastewart75</p>
+                        </div>
+                    </div>
+                    <div className="community-container">
+                        <div className="community-sub-div">
+                            <img src={chatPup3} alt="Quote pup"/>
+                            <p>@sh.ma_x</p>
+                        </div>
+                        <div className="community-sub-div">
+                        <p>I really love your Instagram page! Whoever is illustrating it is super talented, and the posts always make me happy, reminding me that I’m not alone in this!</p>
+                            <img src={textBubble3} alt="Quote bubble"/>
+                        </div>
+                    </div>
                 </div>
             </section>
         </div>
