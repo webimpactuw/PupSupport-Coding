@@ -24,13 +24,15 @@ function Home() {
                     <div className="welcome-content">
                         <h1>I am here to <span className="help">help</span></h1>
                         <p>Student-led organization with a focus on providing mental health resources to colleges students creatively through Instagram</p>
-                        <button className="home-button">About us</button>
+                        <button className="home-button">About Us</button>
                     </div>
                     <div className="img-links">
-                        <img src={welcomeImg1} alt="Hi! I'm pup"/>
-                        <a href="#" alt='Twitter'>Twitter img</a>
-                        <a href="#" alt='Facebook'>Facebook img</a>
-                        <a href="#" alt='Instagram'>Instagram img</a>
+                        <img className="main-img" src={welcomeImg1} alt="Hi! I'm pup"/>
+                        <div className="link-div">
+                            <a href="#" alt='Twitter'>Twitter img</a>
+                            <a href="#" alt='Facebook'>Facebook img</a>
+                            <a href="#" alt='Instagram'>Instagram img</a>
+                        </div>
                     </div>
                 </div>
                 <div className="disclaimer-home">
@@ -79,7 +81,7 @@ function Home() {
                 <div className="resource-contents">
                     <h2>Resources</h2>
                     <p>Find support and resources to improve your mental health and well-being.</p>
-                    <button className="home-button">Check Out</button>
+                    <button className="home-rec-button">Check Out</button>
                 </div>
                 <div>
                     <img src={resourceImg} alt="Heart mirror pup"/>
