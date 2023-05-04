@@ -1,0 +1,29 @@
+.bg {
+    background-color: #FCFCFB;
+}
+
+.dono_intro {
+    background-image: url("../assets/donation_images/purple_dono.png"), url('../assets/donation_images/green_dono.png');
+    background-position: top left, left bottom;
+    background-repeat: no-repeat, repeat;
+    background-size: 100% 80%, 100% 20%;
+    height: 70vh;
+    background-color: #F0F8E7;
+}
+
+.dono_format {
+    height: 100%;
+    padding-left: 7rem;
+}
+
+.donoImg {
+    display: flex;
+    justify-content: center;
+    margin-top: -10rem;
+}
+
+.p-format {
+    padding-top: 7rem;
+    font-size: larger;
+    margin-bottom: -5rem;
+}

@@ -28,7 +28,7 @@ function AboutUs() {
     return (
         <div className='bg'>
             {/* Section 1 */}
-            <section className="intro">
+            <section className="abt_intro">
                 <div className="d-flex flex-row mb-3 cols">
                     <div className='col-6 convo p-default'>
                         <h1 className="pt-5 headers">Starting the Conversation</h1>
