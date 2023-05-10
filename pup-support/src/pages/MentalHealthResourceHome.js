@@ -10,6 +10,30 @@ import "../css/mentalHealth_home.css";
  */
 function MentalHealthResourceHome() {
     // Related functions here
+    return (
+        <div className="mental-health-resource-card-links">
+            <Card 
+                href="https://www.dbsalliance.org"
+                thumbnailURL="https://placehold.co/310x175" 
+                title="DBSA: Depression and Bipolar Support Alliance" 
+                tags={["wellness workshops", "peer support groups", "24/7 chat support"]}
+            />
+            <Card 
+                href="https://www.dbsalliance.org"
+                thumbnailURL="https://placehold.co/310x175" 
+                title="DBSA: Depression and Bipolar Support Alliance" 
+                tags={["wellness workshops", "peer support groups", "24/7 chat support"]}
+            />
+            <Card 
+                href="https://www.dbsalliance.org"
+                thumbnailURL="https://placehold.co/310x175" 
+                title="DBSA: Depression and Bipolar Support Alliance" 
+                tags={["wellness workshops", "peer support groups", "24/7 chat support"]}
+            />
+        </div>
+        
+    )
+    
 
     // HTML/React components here to render page
     // return (
@@ -74,6 +98,30 @@ function MentalHealthResourceHome() {
 
     //     </div>
     // );
+}
+
+function Card(props) {
+    const { href, thumbnailURL, title, tags } = props;
+
+    return (
+        <a className="resource-link-card" href={href} target="_blank" rel="noreferrer ">
+            <img src={thumbnailURL} alt={title} className="resource-link-card-thumbnail" />
+            <div className="resource-link-card-caption">
+                <div className="resource-link-card-caption-title">
+                    {title}
+                </div>
+                <div className="resource-link-card-caption-tags">
+                    {tags.map(function (tag) {
+                        return (
+                            <div key={tag} className="resource-link-card-caption-tag">
+                                {tag}
+                            </div>
+                        );
+                    })}
+                </div>
+            </div>
+        </a>
+    )
 }
 
 export default MentalHealthResourceHome;
