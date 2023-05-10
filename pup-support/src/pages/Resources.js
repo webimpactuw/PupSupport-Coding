@@ -11,17 +11,13 @@ function Resources() {
     // HTML/React components here to render page
     return (
 
-        <div>
+        <div className="resources-wrapper">
             <section className="left-main">
-                
-                <div className='title-container'>
-                    <img className = "textBox" src = {pup1} alt='a Background Text Box'/>
-                    <div className="disclaimer">
-                        <p>Diclaimer: We are not licensed or trained professionals. All of the information we share and create
-                        is collected from existing resources, academic papers, and resources provided by professionals.</p>
-                    </div>
+                <img className = "textBox" src = {pup1} alt='a Background Text Box'/>
+                <div className="disclaimer">
+                    Diclaimer: We are not licensed or trained professionals. All of the information we share and create
+                    is collected from existing resources, academic papers, and resources provided by professionals.
                 </div>
-            
             </section>
 
             {/* links to other resource pages */}

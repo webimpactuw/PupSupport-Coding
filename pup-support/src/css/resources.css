@@ -1,6 +1,11 @@
+.resources-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
 .title-container {
     position: relative;
-    padding-top: 5em;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -8,15 +13,18 @@
 }
 
 .left-main {
+    /* flex: 1; */
     width: 50%;
+    padding: 180px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
 }
 
 .textBox {
     position: relative;
     width: 70%;
     height: auto;
-    margin: 3em;
-    margin-bottom: 5em;
     align-self: center;
     justify-self: center;
     /* border: 2px solid black; */
@@ -25,41 +33,33 @@
 .disclaimer {
     background-color: #C4C9DC;
     text-align: center;
-    margin-top: 50px;
-    padding: 4em;
-    position: absolute;
-    top: 80%;
-    bottom: 42.77%;
+    /* margin-top: 50px; */
+    padding: 30px 60px;
+    /* position: absolute; */
+    /* top: 80%;
+    bottom: 42.77%; */
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.p {
-    font-size: 70%;
+    /* font-size: 70%; */
 }
 
 .resources-links {
-    background-color: #F0F8E7;
-    position: absolute;
     width: 50%;
-    height: 100%;
-    right: 0%;
-    top: 4em;
+    background-color: #F0F8E7;
     display: flex;
     flex-direction: column;
+    gap: 2em;
     justify-content: center;
-    margin-bottom: 8em;
+    align-items: stretch;
+    padding-left: 85px;
+    padding-right: 100px;
 }
 
 .button-m {
-    width: 546px;
-    height: 113.15px;
     text-align: left;
-    padding-left: 50px;
-    margin: 10px;
-    margin-left: 50px;
-    
+    padding: 40px 36px;
+    width: 100%;
 
     background: #FFFFFF;
     border-radius: 17.6801px;
@@ -71,30 +71,7 @@
     line-height: 29px;
 }
 
-.resources-links:first-child {
-    margin-top: 100px;
+.button-m:hover {
+    text-decoration-color: #B6C8A2 !important;
+    text-decoration: underline;
 }
-
-.resources-links:second-child {
-    margin-top: 40px;
-}
-
-/* hover underline not working yet, will try to fix it */
-
-/* underline BEFORE hover */
-.button-m ul li::after{
-    content: '';
-    height: 3px;
-    width: 0;
-    background: #B6C8A2;
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    transition: 0.5s;
-}
-
-/* underline AFTER hover */
-.button-m ul li:hover::after{
-    width: 100%;
-}
-
