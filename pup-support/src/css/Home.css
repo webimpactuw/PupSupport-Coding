@@ -200,6 +200,7 @@
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
+  margin-left: 10em;
 }
 
 .community-sub-div-centered1 div {
@@ -232,9 +233,8 @@
 .community-sub-div-centered3 div {
   width: 70%;
   padding-bottom: 1em;
-  padding-left: 6em;
-  padding-bottom: 6em;
-  padding-top: 2em;
+  padding-left: 7em;
+  padding-top: 3.5em;
 }
 
 .instagram-img {
