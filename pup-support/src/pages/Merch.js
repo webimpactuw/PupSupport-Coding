@@ -1,11 +1,12 @@
 import '../css/merch.css';
 import pup from '../assets/merch_images/merch_pup.png';
+import stickers from '../assets/merch_images/merch-stickers.png';
 
-function merch() {
+function Merch() {
     return (
         <div className='bg'>
             <section className='merch_intro'>
-                <div className='d-flex flex-row cols flex-start'>
+                <div className='d-flex flex-row cols flex-start merch-header'>
                     <div className='col-6 merch-header-text p-default'>
                         <h1 className='headers'>Welcome to</h1>
                         <h1 style={{color: '#4E7A7F'}} className='headers'>Pup's Merch Store!</h1>
@@ -19,9 +20,25 @@ function merch() {
                     </div>
                 </div>
             </section>
-            
+            <section className='pt-5 merch-stickers'>
+                <div className='d-flex flex-row cols stickers-bg'>
+                    <div className='col-3 stickers-img'>
+                        <img src={stickers} />
+                    </div>
+                    <div className='col-6 subheaders stickers-text p-default'>
+                        <h2>iMessage Stickers</h2>
+                        <p className='mt-4'>Pupsupport 1st Sticker Pack</p>
+                    </div>
+                    <div className='col-3 stickers-btn'>
+                        <button className='download-btn'>Download</button>
+                    </div>
+                </div>
+            </section>
+            <section className='merch-form pt-5'>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeZr6hSDJXdfbnNQ2omeMYLd0SpLwABU3BYUK0mpEzuILdcBQ/viewform?embedded=true" width="100%" height="100%" frameborder="0">Loading…</iframe>
+            </section>
         </div>
     );
 }
 
-export default merch;
+export default Merch;

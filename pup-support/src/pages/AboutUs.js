@@ -29,7 +29,7 @@ function AboutUs() {
         <div className='bg'>
             {/* Section 1 */}
             <section className="abt_intro">
-                <div className="d-flex flex-row mb-3 cols">
+                <div className="d-flex flex-row mb-3 cols abt-header">
                     <div className='col-6 convo p-default'>
                         <h1 className="pt-5 headers">Starting the Conversation</h1>
                         <p className='pt-5 pb-4'>Taking care of your mental health isn't an afterthought, it's essential.</p>
@@ -80,10 +80,7 @@ function AboutUs() {
                         <p>As college students, we understand how difficult college life can be. We are here to listen and to share some tips and resources to help guide our audience through their own struggles. We hope to help create a world where all those impacted by mental illness know they are not alone and are empowered to live a fulfilling life.</p>
                     </div>
                 </div>
-                <p className='text-center pt-2'>Learn more about our team <Link to='/our-team'>here</Link></p>
-                    
-                    
-                
+                <p className='text-center'>Learn more about our team <Link to='/our-team'>here</Link></p>
             </section>
 
             {/* Section 4 */}

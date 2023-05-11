@@ -1,5 +1,6 @@
 import heart_pup from '../assets/donation_images/pup_dono.png';
 import '../css/Donations.css';
+import { Link } from 'react-router-dom';
 
 /**
  * Pupsupport Donations Page
@@ -24,6 +25,11 @@ function Donations() {
                     </div>
                 </div>
             </section>
+            <div className='donate-section'>
+                <button className='donate-btn'>
+                    <Link to='/donation-complete'>Click Here to Donate</Link>
+                </button>
+            </div>
         </div>
     );
 }

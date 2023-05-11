@@ -5,6 +5,10 @@
     height: 80vh;
 }
 
+.merch-header {
+    height: 100%;
+}
+
 .merch-header-text {
     padding: 0 1rem 0 10rem;
     margin: auto;
@@ -22,6 +26,51 @@
     align-items: center;
 }
 
-.cols {
-    height: 85%;
+.merch-form {
+    height: 120vh;
+}
+
+.merch-stickers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stickers-bg {
+    background-color: #F0F8E7;
+    width: 75%;
+    /* text-align: center;
+    align-items: center; */
+    border-radius: 25px;
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+.stickers-img {
+    align-items: center;
+}
+
+.stickers-text {
+    padding-top: 2rem;
+}
+
+.stickers-btn {
+    position: relative;
+}
+
+.stickers-btn button {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.download-btn {
+    background-color: #EAC3B5;
+    border: none;
+    outline: none;
+    color: black;
+    border-radius: 1em;
+    font-weight: 500;
+    font-size: 1.4em;
+    padding: 1rem 2rem 1rem 2rem;
 }

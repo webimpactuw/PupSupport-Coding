@@ -9,6 +9,11 @@
     height: 90vh;
 }
 
+.abt-header {
+    height: 75%;
+    align-items: center;
+}
+
 .green-bg {
     background-color: #F0F8E7;
 }
@@ -28,10 +33,6 @@
     font-size: 1.3rem;
     line-height: 2.2rem;
     padding-left: 7rem;
-}
-
-.cols {
-    padding-top: 4rem;
 }
 
 .introImgs {
@@ -172,10 +173,10 @@
 
 .section6-format {
     line-height: 1.6rem;
-    padding: 0rem 7rem 6rem 7rem;
+    padding: 0rem 7rem 5rem 7rem;
 }
 
 .section7-format {
     line-height: 1.6rem;
-    padding: 0rem 7rem 10rem 7rem;
+    padding: 0rem 7rem 5rem 7rem;
 }
