@@ -186,6 +186,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-size: 35em;
 }
 
 .community-sub-div-centered2 {
@@ -193,6 +194,8 @@
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
+  background-size: 35em;
+  height: 25em;
 }
 
 .community-sub-div-centered3 {
@@ -201,6 +204,8 @@
   display: flex;
   align-items: center;
   margin-left: 10em;
+  background-size: 32em;
+  height: 25em;
 }
 
 .community-sub-div-centered1 div {
@@ -223,18 +228,16 @@
 }
 
 .community-sub-div-centered2 div {
-  width: 50%;
+  width: 70%;
   padding-top: 2em;
   padding-bottom: 3em;
-  padding-left: 5.5em;
+  padding-left: 8em;
   padding-top: 3em;
 }
 
 .community-sub-div-centered3 div {
-  width: 70%;
-  padding-bottom: 1em;
+  width: 80%;
   padding-left: 7em;
-  padding-top: 3.5em;
 }
 
 .instagram-img {
