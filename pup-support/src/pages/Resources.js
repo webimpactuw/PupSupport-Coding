@@ -1,4 +1,5 @@
 import pup1 from '../assets/resources_images/resourcesPage_logo.png'
+import forward from '../assets/resources_images/Forward.png'
 import { Link } from 'react-router-dom';
 
 import "../css/resources.css";
@@ -23,9 +24,9 @@ function Resources() {
             {/* links to other resource pages */}
             <section className="resources-links">
                 
-                <Link to='/mental-health-resource-home'><button className='button-m'>Resources Websites</button></Link>
-                <Link to='/videos'><button className='button-m'>PupSupport YouTube</button></Link>
-                <Link to='/podcast'><button className='button-m'>PupSupport Podcast</button></Link>
+                <Link to='/mental-health-resource-home'><button className='button-m'>Resources Websites <img className = "forward" src = {forward} alt='forward'/></button></Link>
+                <Link to='/videos'><button className='button-m'>PupSupport YouTube <img className = "forward" src = {forward} alt='forward'/></button></Link>
+                <Link to='/podcast'><button className='button-m'>PupSupport Podcast <img className = "forward" src = {forward} alt='forward'/></button></Link>
 
             </section>
         </div>
