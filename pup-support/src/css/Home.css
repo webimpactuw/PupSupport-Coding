@@ -1,3 +1,7 @@
+.p-home {
+  font-size: 1.1em !important;
+}
+
 .welcome-section {
   background-color: #EBEDFB;
   display: flex;
@@ -196,6 +200,7 @@
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
+  margin-left: 10em;
 }
 
 .community-sub-div-centered1 div {
@@ -222,15 +227,24 @@
   padding-top: 2em;
   padding-bottom: 3em;
   padding-left: 5.5em;
+  padding-top: 3em;
 }
 
 .community-sub-div-centered3 div {
   width: 70%;
   padding-bottom: 1em;
-  padding-left: 5.5em;
-  padding-bottom: 6em;
+  padding-left: 7em;
+  padding-top: 3.5em;
 }
 
+.instagram-img {
+  margin-left: 2em;
+}
 
+.facebook-img, .instagram-img, .twitter-img {
+  height: 2.8em;
+}
 
-
+.facebook-img {
+  margin-left: 2em;
+}

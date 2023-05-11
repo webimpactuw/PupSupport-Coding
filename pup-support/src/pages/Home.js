@@ -8,6 +8,9 @@ import resourceImg from '../assets/home_page_images/resources_img.png'
 import chatPup1 from '../assets/home_page_images/chat_pup_1.png'
 import chatPup2 from '../assets/home_page_images/chat_pup_2.png'
 import chatPup3 from '../assets/home_page_images/chat_pup_3.png'
+import instagram from '../assets/home_page_images/instagram.png'
+import twitter from '../assets/home_page_images/twitter.png'
+import facebook from '../assets/home_page_images/facebook.png'
 import '../css/Home.css'
 
 /**
@@ -23,26 +26,26 @@ function Home() {
                 <div className="welcome-section">
                     <div className="welcome-content">
                         <h1>I am here to <span className="help">help</span></h1>
-                        <p>Student-led organization with a focus on providing mental health resources to colleges students creatively through Instagram</p>
+                        <p className="p-home">Student-led organization with a focus on providing mental health resources to colleges students creatively through Instagram</p>
                         <button className="home-button">About Us</button>
                     </div>
                     <div className="img-links">
                         <img className="main-img" src={welcomeImg1} alt="Hi! I'm pup"/>
                         <div className="link-div">
-                            <a href="#" alt='Twitter'>Twitter img</a>
-                            <a href="#" alt='Facebook'>Facebook img</a>
-                            <a href="#" alt='Instagram'>Instagram img</a>
+                            <a href="#" alt='Twitter'><img className="twitter-img" src={twitter} alt="Twitter"/></a>
+                            <a href="#" alt='Facebook'><img className="facebook-img" src={facebook} alt="Twitter"/></a>
+                            <a href="#" alt='Instagram'><img  className="instagram-img"src={instagram} alt="Twitter"/></a>
                         </div>
                     </div>
                 </div>
                 <div className="disclaimer-home">
-                    <p>Disclaimer: We are not licensed professionals. All of the information we share and create is collected from existing resources, academic papers, and resources provided by professionals.</p>
+                    <p >Disclaimer: We are not licensed professionals. All of the information we share and create is collected from existing resources, academic papers, and resources provided by professionals.</p>
                 </div>
             </section>
             <section>
                 <div className="pup-story">
                     <h2>PupSupport Story</h2>
-                    <p>Pup is a non-binary husky pup who is here to share their stories with college students and bring awareness to the types of struggles we all face.</p>
+                    <p className="p-home">Pup is a non-binary husky pup who is here to share their stories with college students and bring awareness to the types of struggles we all face.</p>
                 </div>
             </section>
             <section id="overview-section">
@@ -51,13 +54,13 @@ function Home() {
                         <img className="view-img-1" src={overviewImg1} alt="Mental health pup"/>
                         <div className="sub-item">
                             <h2 className="over-head">Mental Health</h2>
-                            <p>PupSupport strives to normalize and bring awareness to the mental health issues college students face as well as support students as they go through their journey and struggles as a college student.</p>
+                            <p className="p-home">PupSupport strives to normalize and bring awareness to the mental health issues college students face as well as support students as they go through their journey and struggles as a college student.</p>
                         </div>
                     </div>
                     <div className="overview-item">
                         <div className="sub-item">
                             <h2 className="over-head">College Living</h2>
-                            <p>In order to best serve our community, we are focused on sharing the experiences of life as a college student and provide additional resources that may benefit students specifically.</p>
+                            <p className="p-home">In order to best serve our community, we are focused on sharing the experiences of life as a college student and provide additional resources that may benefit students specifically.</p>
                         </div>
                         <img className="view-img-2" src={overviewImg2} alt="College living pup"/>
                     </div>
@@ -65,13 +68,13 @@ function Home() {
                         <img className="view-img-1" src={overviewImg3} alt="Education & resources pup"/>
                         <div className="sub-item">
                             <h2 className="over-head">Education & Resources</h2>
-                            <p>In addition to our social media presence, we provide a variety of resources and opportunities to further their education on mental health.</p>
+                            <p className="p-home">In addition to our social media presence, we provide a variety of resources and opportunities to further their education on mental health.</p>
                         </div>
                     </div>
                     <div className="overview-item">
                         <div className="sub-item">
                             <h2 className="over-head">Creativity</h2>
-                            <p>Pup Support utilizes art and social media in order to creatively advocate for and share student experiences.</p>
+                            <p className="p-home">Pup Support utilizes art and social media in order to creatively advocate for and share student experiences.</p>
                         </div>
                         <img className="view-img-2" src={overviewImg4} alt="Creativity pup"/>
                     </div>
@@ -80,7 +83,7 @@ function Home() {
             <section className="resources">
                 <div className="resource-contents">
                     <h2>Resources</h2>
-                    <p>Find support and resources to improve your mental health and well-being.</p>
+                    <p className="p-home">Find support and resources to improve your mental health and well-being.</p>
                     <button className="home-rec-button">Check Out</button>
                 </div>
                 <div className="img-div">
