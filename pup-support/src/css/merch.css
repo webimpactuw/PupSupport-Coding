@@ -1,0 +1,27 @@
+.merch_intro {
+    background-image: url("../assets/merch_images/background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 80vh;
+}
+
+.merch-header-text {
+    padding: 0 1rem 0 10rem;
+    margin: auto;
+}
+
+.merch-header-img {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.pup-img {
+    justify-content: center;
+    align-items: center;
+}
+
+.cols {
+    height: 85%;
+}

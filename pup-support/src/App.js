@@ -10,6 +10,7 @@ import AboutUs from './pages/AboutUs';
 import Podcast from './pages/Podcast';
 import PodcastDetails from './pages/PodcastDetails';
 import Donations from './pages/Donations';
+import Merch from './pages/Merch';
 import MentalHealthResourceHome from './pages/MentalHealthResourceHome';
 
 
@@ -24,6 +25,7 @@ function App() {
         <Route path='/about' element={<AboutUs/>} /> 
         <Route path='/our-team' element={<OurTeam/>} />
         <Route path='/donation' element={<Donations/>} />
+        <Route path='/merch' element={<Merch/>} />
 
         {/* Resources related routes */}
         <Route path='/resources' element={<Resources/>} />
