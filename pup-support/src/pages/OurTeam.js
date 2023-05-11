@@ -15,11 +15,6 @@ import '../css/OurTeam.css';
  * Pupsupport Our Team Page
  */
 function OurTeam() {
-    // Related functions here
-    const [isFlipped1, setIsFlipped1] = useState(false);
-    const [isFlipped2, setIsFlipped2] = useState(false);
-    const [isFlipped3, setIsFlipped3] = useState(false);
-    const [isFlipped4, setIsFlipped4] = useState(false);
 
     const execImgs = [
       {img: YunaPark, name: "Yuna Park", position: "President Co-founder"}, 
@@ -65,39 +60,24 @@ function OurTeam() {
       {img: RobinLai, name: "Robin Lai", position: "Director of Creative Operations"}
     ];
 
-    const handleArrowClick = (e) => {
-        const { target } = e;
-        switch(target.id) {
-          case "dropdown-1": setIsFlipped1(!isFlipped1); break;
-          case "dropdown-2": setIsFlipped2(!isFlipped2); break;
-          case "dropdown-3": setIsFlipped3(!isFlipped3); break;
-          case "dropdown-4": setIsFlipped4(!isFlipped4); break;
-        }
-    };
-
-    // HTML/React components here to render page
     return (
         <div>
-            <div>
-              <h1>Our Team</h1>
-              <p>Meet the faces behind Pup Support. Our team is made up of innovators, designers, and compassionate members who value the importance of inclusive mental health access.</p>
-              <p>Lorem ipsum dolor sit amet consectetur. Urna morbi fringilla mauris sed. Curabitur fringilla neque dictum ultrices blandit turpis eget.</p>
+            <div className='d-flex flex-row align-items-center justify-content-center pt-5 mx-10 mb-5'>
+              <div className='col-2'></div>
+              <h1 className='col-2 team-title'>Our Team</h1>
+              <div className='border'></div>
+              <p className='ml-4 col-5'>Meet the faces behind Pup Support. Our team is made up of innovators, designers, and compassionate members who value the importance of inclusive mental health access.</p>
+              <div className='col-2'></div>
             </div>
 
             {/* Executive Team */}
             <section className='mb-5'>
-                <div className='d-flex flex-row align-items-center pt-5 pb-5'>
-                    <div className='col-2'>
-                        <p
-                            id="dropdown-1"
-                            className={`dropdown-icon ${isFlipped1 ? 'flip-vertical' : ''}`}
-                            onClick={handleArrowClick}
-                        >^</p>
-                    </div>
+                <div className='d-flex flex-row align-items-center pt-3 pb-3'>
+                    <div className='col-2'></div>
                     <h2 className='team-header col-8 align-items-center'>Executive Team</h2>
                     <div className='col-2'></div>
                 </div>
-                <div className='img-group col-8' style={{ display: !isFlipped1 ? 'none' : 'flex'}}>
+                <div className='img-group col-8'>
                     {execImgs.map((exec)=>{
                         return <div className='team-img' >
                           <img src={exec.img} alt={exec.name}></img>
@@ -110,18 +90,12 @@ function OurTeam() {
 
             {/* Resource & Education Team */}
             <section className='mb-5'>
-                <div className='d-flex flex-row align-items-center pt-5 pb-5'>
-                    <div className='col-2'>
-                        <p
-                            id="dropdown-2"
-                            className={`dropdown-icon ${isFlipped2 ? 'flip-vertical' : ''}`}
-                            onClick={handleArrowClick}
-                        >^</p>
-                    </div>
+                <div className='d-flex flex-row align-items-center pt-3 pb-3'>
+                    <div className='col-2'></div>
                     <h2 className='team-header col-8 align-items-center'>Resources & Education Team</h2>
                     <div className='col-2'></div>
                 </div>
-                <div className='img-group col-8' style={{ display: !isFlipped2 ? 'none' : 'flex'}}>
+                <div className='img-group col-8'>
                     {resEduImgs.map((member)=>{
                         return <div className='team-img' >
                           <img src={member.img} alt={member.name}></img>
@@ -134,51 +108,39 @@ function OurTeam() {
 
             {/* External Team */}
             <section className='mb-5'>
-              <div className='d-flex flex-row align-items-center pt-5 pb-5'>
-                  <div className='col-2'>
-                      <p
-                          id="dropdown-3"
-                          className={`dropdown-icon ${isFlipped3 ? 'flip-vertical' : ''}`}
-                          onClick={handleArrowClick}
-                      >^</p>
-                  </div>
-                  <h2 className='team-header col-8 align-items-center'>External Team</h2>
-                  <div className='col-2'></div>
-              </div>
-              <div className='img-group col-8' style={{ display: !isFlipped3 ? 'none' : 'flex'}}>
-                  {extImgs.map((member)=>{
-                      return <div className='team-img' >
-                        <img src={member.img} alt={member.name}></img>
-                        <h3>{member.name}</h3>
-                        <p>{member.position}</p>
-                      </div>
-                  })}
-              </div>
-          </section>
+                <div className='d-flex flex-row align-items-center pt-3 pb-3'>
+                    <div className='col-2'></div>
+                    <h2 className='team-header col-8 align-items-center'>External Team</h2>
+                    <div className='col-2'></div>
+                </div>
+                <div className='img-group col-8'>
+                    {extImgs.map((member)=>{
+                        return <div className='team-img'>
+                            <img src={member.img} alt={member.name}></img>
+                            <h3>{member.name}</h3>
+                            <p>{member.position}</p>
+                        </div>
+                    })}
+                </div>
+            </section>
 
-          {/* Creative Team */}
-          <section className='mb-5'>
-              <div className='d-flex flex-row align-items-center pt-5 pb-5'>
-                  <div className='col-2'>
-                      <p
-                          id="dropdown-4"
-                          className={`dropdown-icon ${isFlipped4 ? 'flip-vertical' : ''}`}
-                          onClick={handleArrowClick}
-                      >^</p>
-                  </div>
-                  <h2 className='team-header col-8 align-items-center'>Creative Team</h2>
-                  <div className='col-2'></div>
-              </div>
-              <div className='img-group col-8' style={{ display: !isFlipped4 ? 'none' : 'flex'}}>
-                  {createImgs.map((member)=>{
-                      return <div className='team-img' >
+            {/* Creative Team */}
+            <section className='mb-5'>
+                <div className='d-flex flex-row align-items-center pt-3 pb-3'>
+                    <div className='col-2'></div>
+                    <h2 className='team-header col-8 align-items-center'>Creative Team</h2>
+                    <div className='col-2'></div>
+                </div>
+                <div className='img-group col-8'>
+                    {createImgs.map((member)=>{
+                        return <div className='team-img' >
                         <img src={member.img} alt={member.name}></img>
                         <h3>{member.name}</h3>
                         <p>{member.position}</p>
-                      </div>
-                  })}
-              </div>
-          </section>
+                        </div>
+                    })}
+                </div>
+            </section>
         </div>
     );
 }

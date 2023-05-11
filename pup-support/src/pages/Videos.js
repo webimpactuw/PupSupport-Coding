@@ -30,7 +30,7 @@ function Videos() {
 				<section className='bott'>
 					<div className="grid-container-element">
 						<div className="grid-child-element">
-							<iframe width="420" height="315" title="video1" src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0"></iframe>
+							<iframe width="420" height="315" title="video1" src="https://www.youtube.com/embed/cl_3AW-CIUM"></iframe>
 							<p>
 								Description: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam numquam ex laboriosam dolorum id! Iste cumque hic at autem voluptate, placeat non quasi ipsum
 								adipisci veniam. Aliquid architecto consectetur fugit maiores cumque dolore veniam perspiciatis eius, quibusdam commodi unde omnis dolorum? Obcaecati eos nisi repellendus
@@ -38,7 +38,7 @@ function Videos() {
 							</p>
 						</div>
 						<div className="grid-child-element">
-							<iframe width="420" height="315" title="video2" src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0"></iframe>
+							<iframe width="420" height="315" title="video2" src="https://www.youtube.com/embed/VrGQIefMo_0"></iframe>
 							<p>
 								Description: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam numquam ex laboriosam dolorum id! Iste cumque hic at autem voluptate, placeat non quasi ipsum
 								adipisci veniam. Aliquid architecto consectetur fugit maiores cumque dolore veniam perspiciatis eius, quibusdam commodi unde omnis dolorum? Obcaecati eos nisi repellendus
@@ -46,7 +46,7 @@ function Videos() {
 							</p>
 						</div>
 						<div className="grid-child-element">
-							<iframe width="420" height="315" title="video3" src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0"></iframe>
+							<iframe width="420" height="315" title="video3" src="https://www.youtube.com/embed/prs4f1b0LLs"></iframe>
 							<p>
 								Description: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam numquam ex laboriosam dolorum id! Iste cumque hic at autem voluptate, placeat non quasi ipsum
 								adipisci veniam. Aliquid architecto consectetur fugit maiores cumque dolore veniam perspiciatis eius, quibusdam commodi unde omnis dolorum? Obcaecati eos nisi repellendus

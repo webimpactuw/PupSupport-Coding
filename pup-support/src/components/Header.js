@@ -17,6 +17,7 @@ function Header() {
             <section id='nav'>
                 <Link to='/about'>About</Link>
                 <Link to='/resources'>Resources</Link>
+                <section id='home-button-2'></section>
                 <section id='home-button'>
                     <Link to='/'><img src={pup_home2} alt="Pup home icon"></img></Link>
                 </section>

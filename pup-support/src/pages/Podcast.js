@@ -42,7 +42,7 @@ function Podcast() {
 					<h2 className='text2'>Popular Episodes</h2>
 				</section>
 				<section className='bottom_border'>
-					<img src={rect} class="rect" alt="rect" />
+					<img src={rect} className="rect" alt="rect" />
 					<section className='last'>
 						<p>date</p>
 						<h3 className='pop_eps'>Podcast Name</h3>
