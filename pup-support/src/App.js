@@ -9,20 +9,22 @@ import Videos from './pages/Videos';
 import AboutUs from './pages/AboutUs';
 import Podcast from './pages/Podcast';
 import PodcastDetails from './pages/PodcastDetails';
+// import Merch from './pages/Merch';
 import Donations from './pages/Donations';
 import MentalHealthResourceHome from './pages/MentalHealthResourceHome';
 
-
-// import Merch from './pages/Merch';
-// import Donation from './pages/Donation';
 
 function App() {
   return (
     <BrowserRouter>
       <Header />
       <Routes>
+        <Route path='/' exact element={<Home/>} />
+
         <Route path='/about' element={<AboutUs/>} /> 
         <Route path='/our-team' element={<OurTeam/>} />
+
+        {/* <Route path='/merch' element={<Merch/>} /> */}
         <Route path='/donation' element={<Donations/>} />
 
         {/* Resources related routes */}
@@ -32,12 +34,6 @@ function App() {
         <Route path='/PodcastDetails' element={<PodcastDetails/>} />
         <Route path='/mental-health-resource-home' element={<MentalHealthResourceHome/>} />
 
-
-        <Route path='/' exact element={<Home/>} />
-
-        {/* <Route path='/merch' element={<Merch/>} />
-
-        <Route path='donation' element={<Donation/>} /> */}
       </Routes>
       <Footer/>
     </BrowserRouter>
