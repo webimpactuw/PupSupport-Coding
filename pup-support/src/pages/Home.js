@@ -8,6 +8,9 @@ import resourceImg from '../assets/home_page_images/resources_img.png'
 import chatPup1 from '../assets/home_page_images/chat_pup_1.png'
 import chatPup2 from '../assets/home_page_images/chat_pup_2.png'
 import chatPup3 from '../assets/home_page_images/chat_pup_3.png'
+import instagram from '../assets/home_page_images/instagram'
+import twitter from '../assets/home_page_images/twitter'
+import facebook from '../assets/home_page_images/facebook'
 import '../css/Home.css'
 
 /**
@@ -29,9 +32,9 @@ function Home() {
                     <div className="img-links">
                         <img className="main-img" src={welcomeImg1} alt="Hi! I'm pup"/>
                         <div className="link-div">
-                            <a href="#" alt='Twitter'>Twitter img</a>
-                            <a href="#" alt='Facebook'>Facebook img</a>
-                            <a href="#" alt='Instagram'>Instagram img</a>
+                            <a href="#" alt='Twitter'><img src={twitter} alt="Twitter"/></a>
+                            <a href="#" alt='Facebook'><img src={facebook} alt="Twitter"/></a>
+                            <a href="#" alt='Instagram'><img src={instagram} alt="Twitter"/></a>
                         </div>
                     </div>
                 </div>
