@@ -1,0 +1,48 @@
+.mental-health-resource-card-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.resource-link-card {
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+}
+
+.resource-link-card-thumbnail {
+    height: 175px;
+    width: 100%;
+    object-fit: fill;
+    border-top-right-radius: 2em;
+    border-top-left-radius: 2em;
+}
+
+.resource-link-card-caption {
+    width: 100%;
+    background-color: #EBEDFB;
+    padding: 30px;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+}
+
+.resource-link-card-caption-title {
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+.resource-link-card-caption-tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.resource-link-card-caption-tag {
+    padding: 1px 4px;
+    background-color: white;
+}
+
+.resource-link-card-caption-tag:first-child {
+    margin-top: 15px;
+}
