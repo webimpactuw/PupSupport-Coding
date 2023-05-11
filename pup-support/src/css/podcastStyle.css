@@ -4,6 +4,7 @@
     position: relative;
     right: 0%;
     top: 8em;
+    z-index: 1;
 }
 .singing{
     width: 270px;
@@ -19,7 +20,7 @@ display: grid;
 }
 .head{
     position: relative;
-    left: 10%;
+    /* left: 10%; */
     display: flex;
     flex: none;
 }
@@ -30,7 +31,7 @@ display: grid;
 }
 .mid{
     position: relative;
-    left: 10%;
+    padding-left: 10%;
     top: 6em;
 }
 .recent {
@@ -39,7 +40,7 @@ display: grid;
     background-size: 100% 100%;
     height: 70vh;
     position: relative;
-    z-index: -1;
+    /* z-index: -1; */
 
 }
 .pic{
@@ -49,10 +50,10 @@ display: grid;
 .name{
     position: relative;
     display: block;
-    left: 40%;
+    padding-left: 40%;
     top: -18em;
     text-align: justify;
-    max-width: 50%;
+    max-width: 90%;
 }
 .podcast{
     width: 60%;
@@ -84,15 +85,19 @@ display: grid;
     border-radius: 17px;
     height: 17em;
     margin: 3em 3em 3em 3em;
+    display: flex;
+    align-items: center;
     
 }
 .last{
-    position: relative;
-    display: inline;
-    left: 30%;
+    /* position: relative; */
+    display: inline-block;
+    /* left: 30%; */
     top: -100%;
     text-align: justify;
     max-width: fit-content;
+    padding-bottom: 3em;
+    
 }
 .rect{
     width: 250px;
