@@ -228,11 +228,19 @@
 .community-sub-div-centered3 div {
   width: 70%;
   padding-bottom: 1em;
-  padding-left: 5.5em;
+  padding-left: 6em;
   padding-bottom: 6em;
   padding-top: 2em;
 }
 
+.instagram-img {
+  margin-left: 2em;
+}
 
+.facebook-img, .instagram-img, .twitter-img {
+  height: 2.8em;
+}
 
-
+.facebook-img {
+  margin-left: 2em;
+}
