@@ -69,9 +69,28 @@
     font-weight: 500;
     font-size: 24px;
     line-height: 29px;
+
+    border: none;
+
+    box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+
 }
 
 .button-m:hover {
     text-decoration-color: #B6C8A2 !important;
-    text-decoration: underline;
+    /* text-decoration: underline; */
+
+    box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(250, 250, 250, .4);
+
+}
+.forward {
+    position: relative;
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
 }

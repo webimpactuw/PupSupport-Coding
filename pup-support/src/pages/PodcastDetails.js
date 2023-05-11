@@ -20,6 +20,7 @@ function PodcastDetails() {
                     <div className="desc">
                         <h2>Podcast Name</h2> 
                         <p>With A & B</p>
+                        <iframe className='podcast' src="https://open.spotify.com/embed/track/3T03rPwlL8NVk1yIaxeD8U?utm_source=generator"></iframe>
 
                         {/* attach a playable audio file, idk how for now */}
                     </div>
