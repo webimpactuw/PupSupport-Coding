@@ -69,7 +69,7 @@
   
   #footer-l {
     position: absolute;
-    top: 10.1em;
+    bottom: 5.1em;
     left: 0%;
     width: 50%;
     display: flex;
@@ -96,7 +96,7 @@
   
   #footer-r {
     position: absolute;
-    top: 9.1em;
+    bottom: 4.1em;
     left: 50%;
     width: 50%;
   }
@@ -108,12 +108,12 @@
     gap: 35%;
   }
   
-  #disclaimer {
+  #footer-disclaimer {
     margin-top: 3em;
     font-size: .7em;
   }
   
-  #credits {
+  #footer-credits {
     position: absolute;
     bottom: 2em;
     width: 100%;
@@ -123,16 +123,17 @@
     align-items: center;
   }
   
-  #credits p {
+  #footer-credits p {
     font-size: .75em;
     margin-bottom: 0;
+    margin-top: 0;
   }
   
-  #credits p:first-of-type {
+  #footer-redits p:first-of-type {
     margin-right: 5em;
   }
   
-  #credits img {
+  #footer-credits img {
     width: 1.3em;
     height: 1.3em;
     margin-right: .5em;
