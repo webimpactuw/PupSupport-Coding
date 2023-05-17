@@ -14,7 +14,7 @@ function Footer() {
         <div id="footer">
             <img src={footer_rectangle} alt="Footer background"></img>
 
-            <div>
+            <div id="footer-content">
                 <div id="footer-l">
                     <img src={pup_home} id="footer-pup" alt="Footer pup image"></img>
                     <form>
@@ -41,11 +41,11 @@ function Footer() {
                             <a href="https://linktr.ee/pupsupport">https://linktr.ee/pupsupport</a>
                         </div>
                     </div>
-                    <p id="disclaimer">If you are experiencing a crisis or have an emergency that needs immediate help, call 911.</p>
+                    <p id="footer-disclaimer">If you are experiencing a crisis or have an emergency that needs immediate help, call 911.</p>
                 </div>
             </div>
 
-            <div id="credits">
+            <div id="footer-credits">
                 <img src={copywrite} alt="copywrite icon"></img>
                 <p>2023 PupSupport</p>
                 <p>Made with <a href="https://dubvelopersuw.org">Dubvelopers</a></p>
