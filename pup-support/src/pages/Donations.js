@@ -9,7 +9,7 @@ function Donations() {
     return(
         <div className="bg">
             <section className='dono_intro'>
-                <div className="dono_format d-flex flex-row cols align-items-center">
+                <div className="dono_format d-flex flex-row align-items-center">
                     <div className='col-6'>
                         <div className='d-flex justify-content-between flex-column p-default'>
                             <div>

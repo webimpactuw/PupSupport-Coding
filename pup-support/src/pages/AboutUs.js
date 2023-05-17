@@ -29,7 +29,7 @@ function AboutUs() {
         <div className='bg'>
             {/* Section 1 */}
             <section className="abt_intro">
-                <div className="d-flex flex-row mb-3 cols abt-header">
+                <div className="d-flex flex-row mb-3 abt-header">
                     <div className='col-6 convo p-default'>
                         <h1 className="pt-5 headers">Starting the Conversation</h1>
                         <p className='pt-5 pb-4'>Taking care of your mental health isn't an afterthought, it's essential.</p>

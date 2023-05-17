@@ -11,6 +11,7 @@ import Podcast from './pages/Podcast';
 import PodcastDetails from './pages/PodcastDetails';
 // import Merch from './pages/Merch';
 import Donations from './pages/Donations';
+import DonationsComplete from './pages/DonationComplete';
 import Merch from './pages/Merch';
 import MentalHealthResourceHome from './pages/MentalHealthResourceHome';
 
@@ -27,6 +28,7 @@ function App() {
 
         {/* <Route path='/merch' element={<Merch/>} /> */}
         <Route path='/donation' element={<Donations/>} />
+        <Route path='/donation-complete' element={<DonationsComplete/>}></Route>
         <Route path='/merch' element={<Merch/>} />
 
         {/* Resources related routes */}
