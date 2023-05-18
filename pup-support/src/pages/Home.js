@@ -11,6 +11,7 @@ import chatPup3 from '../assets/home_page_images/chat_pup_3.png'
 import instagram from '../assets/home_page_images/instagram.png'
 import twitter from '../assets/home_page_images/twitter.png'
 import facebook from '../assets/home_page_images/facebook.png'
+import { Link } from 'react-router-dom';
 import '../css/Home.css'
 
 /**
@@ -27,16 +28,14 @@ function Home() {
                     <div className="welcome-content">
                         <h1>I am here to <span className="help">help</span></h1>
                         <p className="p-home">Student-led organization with a focus on providing mental health resources to colleges students creatively through Instagram</p>
-                        <button className="home-button">
-                            <Link to='/about'>About Us</Link>
-                        </button>
+                        <Link type="button" className="home-button" aria-label="About Us Link" role="button" to="/AboutUs">About Us</Link>
                     </div>
                     <div className="img-links">
                         <img className="main-img" src={welcomeImg1} alt="Hi! I'm pup"/>
                         <div className="link-div">
-                            <a href="https://twitter.com/pup_support?lang=en" target='_blank' alt='Twitter'><img className="twitter-img" src={twitter} alt="Twitter"/></a>
-                            <a href="https://www.facebook.com/pupsupport/" target='_blank' alt='Facebook'><img className="facebook-img" src={facebook} alt="Twitter"/></a>
-                            <a href="https://www.instagram.com/pupsupport/?hl=en" target='_blank' alt='Instagram'><img  className="instagram-img"src={instagram} alt="Twitter"/></a>
+                            <a href="https://twitter.com/pup_support?lang=en" alt='Twitter' target="_blank"><img className="twitter-img" src={twitter} alt="Twitter"/></a>
+                            <a href="https://www.facebook.com/pupsupport/" alt='Facebook' target="_blank"><img className="facebook-img" src={facebook} alt="Twitter"/></a>
+                            <a href="https://www.instagram.com/pupsupport/?hl=en" alt='Instagram' target="_blank"><img  className="instagram-img"src={instagram} alt="Twitter"/></a>
                         </div>
                     </div>
                 </div>
@@ -86,9 +85,7 @@ function Home() {
                 <div className="resource-contents">
                     <h2>Resources</h2>
                     <p className="p-home">Find support and resources to improve your mental health and well-being.</p>
-                    <button className="home-rec-button">
-                        <Link to='/resources'>Check Out</Link>
-                    </button>
+                    <Link type="button" className="home-rec-button" aria-label="Resources Link" role="button" to="/Resources">Check Out</Link>
                 </div>
                 <div className="img-div">
                     <img className="resource-img" src={resourceImg} alt="Heart mirror pup"/>

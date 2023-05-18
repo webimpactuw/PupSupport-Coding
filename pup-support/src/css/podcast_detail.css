@@ -1,8 +1,8 @@
 .top {
     background-color: #ebedfb;
     background-size: 100% 100%;
-    width: 1440px;
-    height: 515px;
+    /* width: 1440px; */
+    /* height: 515px; */
     margin-bottom: 3em;
 }
 
@@ -31,30 +31,37 @@
 .details {
     background-color: white;
     margin-left: 6em;
+    margin-right: 6em;
 }
 
 .sub-item {
-    margin-top: 2em;
-    margin-bottom: 6em;
+    margin-top: 64px;
+    margin-bottom: 128px;
 }
 
-h2 {
+.podcast {
+    border-radius: 10px;
+    width: 100%; 
+    height: 35%;
+
+    border-radius: 10px;
+    box-shadow: none;
+    border: none;
+}
+
+.podcast-details-podcast-title {
     font-size: 300%;
 }
 
-h3 {
+.podcast-details-title {
     font-size: 250%;    
 }
 
-p {
-    margin-top: 3em;
-    font-size: 100%;  
+.podcast-details-p {
+    margin-top: 50px;
 }
 
+.podcast-details-next-p {
+    margin-top: 10px;
+}
 
-/* .pupImage img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-} */

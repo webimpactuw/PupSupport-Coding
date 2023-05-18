@@ -69,7 +69,10 @@
 }
 
 .home-button {
+  display: flex;
   background-color: #EAC3B5;
+  align-items: center;
+  justify-content: center;
   color: black;
   border: none;
   border-radius: 1em;
@@ -80,9 +83,12 @@
 }
 
 .home-rec-button {
+  display: flex;
   background-color: #EAC3B5;
   color: black;
   border: none;
+  align-items: center;
+  justify-content: center;
   border-radius: 1em;
   width: 12em;
   height: 3.2em;
@@ -187,6 +193,7 @@
   justify-content: center;
   align-items: center;
   background-size: 35em;
+  min-width: 35em;
 }
 
 .community-sub-div-centered2 {
@@ -195,6 +202,7 @@
   display: flex;
   align-items: center;
   background-size: 35em;
+  min-width: 35em;
   height: 25em;
 }
 
@@ -205,6 +213,7 @@
   align-items: center;
   margin-left: 10em;
   background-size: 32em;
+  min-width: 32em;
   height: 25em;
 }
 
