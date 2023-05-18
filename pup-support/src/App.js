@@ -13,7 +13,7 @@ import PodcastDetails from './pages/PodcastDetails';
 import Donations from './pages/Donations';
 import DonationsComplete from './pages/DonationComplete';
 import Merch from './pages/Merch';
-import MentalHealthResourceHome from './pages/MentalHealthResourceHome';
+import MentalHealthResourceDepression from './pages/MentalHealthResourceDepression';
 
 
 function App() {
@@ -36,7 +36,7 @@ function App() {
         <Route path='/videos' element={<Videos/>} />
         <Route path='/podcast' element={<Podcast/>} />
         <Route path='/PodcastDetails' element={<PodcastDetails/>} />
-        <Route path='/mental-health-resource-home' element={<MentalHealthResourceHome/>} />
+        <Route path='/mental-health-resource-depression' element={<MentalHealthResourceDepression/>} />
 
       </Routes>
       <Footer/>
