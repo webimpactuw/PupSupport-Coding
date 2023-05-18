@@ -24,7 +24,7 @@
 .top-color{
     background-color: #ebedfb;
     width: 100%;
-    position: relative;
+    /* position: relative; */
     /* z-index: -1; */
     
 }
@@ -40,7 +40,7 @@
     left: 10%;
     top: 30px;
 }
-.button{
+.buttonvid{
     background-color: #EAC3B5;
     border-radius: 30px;
     border-color: white;
@@ -49,6 +49,7 @@
     text-decoration: solid;
     display: inline-block;
     font-size: 100%;
+    color: black;
 }
 .top-separate{
     display: flex;

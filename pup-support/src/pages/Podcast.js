@@ -5,6 +5,7 @@ import dancing from '../assets/podcast_images/PupDancing.png';
 import singing from '../assets/podcast_images/Vector 2.png';
 import rect from '../assets/podcast_images/Rectangle.png';
 import duration from '../assets/podcast_images/duration.png';
+import arrow from '../assets/arrow.png';
 
 /**
  * Pupsupport resources page for youtube videos
@@ -16,7 +17,7 @@ function Podcast() {
     return (
         <div>
             <main>
-			<a href="back" className='back'><Link to='/Resources'>Back</Link></a>
+			<a href="back" className='back'><Link to='/Resources'><img src={arrow} alt="arrow" />Back</Link></a>
 			<section className='head'>
 				<section className='topsec'>
 					<h2>Podcast</h2>
@@ -33,7 +34,7 @@ function Podcast() {
 					<section className='name'>
 						<h3>Podcast Name</h3>
 						<p className='text'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias nihil iste maxime a sed molestias deleniti beatae rerum dolores dolorem?</p>
-						<iframe className='podcast' src="https://open.spotify.com/embed/track/3T03rPwlL8NVk1yIaxeD8U?utm_source=generator"></iframe>
+						<iframe className='podcastmain' src="https://open.spotify.com/embed/track/3T03rPwlL8NVk1yIaxeD8U?utm_source=generator"></iframe>
 					</section>
 				</section>
 			</section>
@@ -47,7 +48,7 @@ function Podcast() {
 						<p>date</p>
 						<h3 className='pop_eps'>Podcast Name</h3>
 						<p className='pop_eps'>Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ipsam!</p>
-						<Link to='/PodcastDetails'><img src={duration} class="duration" alt="duration" /></Link>
+						<Link to='/PodcastDetails'><button className='buttonpod'>Details</button></Link>
 					</section>
 				</section>
 			</section>
