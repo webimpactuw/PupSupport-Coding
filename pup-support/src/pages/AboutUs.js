@@ -100,12 +100,12 @@ function AboutUs() {
 
             {/* Section 6 */}
             <section>
-                <div className='d-flex flex-row dropdown-format align-items-center pt-5 pb-5'>
+                <div className='d-flex flex-row abt-dropdown-format align-items-center pt-5 pb-5'>
                     <div className='col-2'>
                         <img
                             id="dropdown-1"
                             src={dropdown_btn}
-                            className={`${!isFlipped1 ? 'dropdown' : ''} ${isFlipped1 ? 'flip-vertical' : ''}`}
+                            className={`${!isFlipped1 ? 'abt-dropdown' : ''} ${isFlipped1 ? 'flip-vertical' : ''}`}
                             style={{ width: '5rem', height: '3rem' }}
                             onClick={handleImageClick}
                         />
@@ -171,12 +171,12 @@ function AboutUs() {
             </section>
             {/* Section 7 */}
             <section className='green-bg mb-5'>
-                <div className='d-flex flex-row dropdown-format align-items-center pt-5 pb-5'>
+                <div className='d-flex flex-row abt-dropdown-format align-items-center pt-5 pb-5'>
                     <div className='col-2'>
                         <img
                             id="dropdown-2"
                             src={dropdown_btn}
-                            className={`dropdown align-items-center ${isFlipped2 ? 'flip-vertical' : ''}`}
+                            className={`abt-dropdown align-items-center ${isFlipped2 ? 'flip-vertical' : ''}`}
                             style={{ width: '5rem', height: '3rem' }}
                             onClick={handleImageClick}
                         />

@@ -137,16 +137,16 @@
     padding-left: 1rem;
 }
 
-.dropdown {
+.abt-dropdown {
     max-width: 25%;
     height: auto;
 }
 
-.dropdown:hover {
+.abt-dropdown:hover {
     transform: scale(1.25);
 }
 
-.dropdown-format {
+.abt-dropdown-format {
     padding: 0rem 7rem 0rem 7rem;
 }
 
