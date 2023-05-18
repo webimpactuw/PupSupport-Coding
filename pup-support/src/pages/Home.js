@@ -11,7 +11,6 @@ import chatPup3 from '../assets/home_page_images/chat_pup_3.png'
 import instagram from '../assets/home_page_images/instagram.png'
 import twitter from '../assets/home_page_images/twitter.png'
 import facebook from '../assets/home_page_images/facebook.png'
-import { Link } from 'react-router-dom';
 import '../css/Home.css'
 
 /**
@@ -28,7 +27,7 @@ function Home() {
                     <div className="welcome-content">
                         <h1>I am here to <span className="help">help</span></h1>
                         <p className="p-home">Student-led organization with a focus on providing mental health resources to colleges students creatively through Instagram</p>
-                        <Link type="button" className="home-button" aria-label="About Us Link" role="button" to="/AboutUs">About Us</Link>
+                        <Link type="button" className="home-button" aria-label="About Us Link" role="button" to="/about">About Us</Link>
                     </div>
                     <div className="img-links">
                         <img className="main-img" src={welcomeImg1} alt="Hi! I'm pup"/>
