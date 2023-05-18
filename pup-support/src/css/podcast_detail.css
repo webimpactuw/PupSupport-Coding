@@ -35,8 +35,8 @@
 }
 
 .sub-item {
-    margin-top: 2em;
-    margin-bottom: 6em;
+    margin-top: 64px;
+    margin-bottom: 128px;
 }
 
 .podcast {
@@ -54,7 +54,10 @@
 }
 
 .podcast-details-p {
-    margin-top: 100px;
-    font-size: 100%;  
+    margin-top: 50px;
+}
+
+.podcast-details-next-p {
+    margin-top: 10px;
 }
 
