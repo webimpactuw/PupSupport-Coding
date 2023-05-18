@@ -55,7 +55,7 @@ display: grid;
     text-align: justify;
     max-width: 90%;
 }
-.podcast{
+.podcastmain{
     width: 60%;
     height: 10%;
     border-radius: 10px;
@@ -103,4 +103,12 @@ display: grid;
     width: 250px;
     padding: 1em 1em 1em 1em;
     display: block;
+}
+.buttonpod{
+    border: none;
+    border-radius: 25px;
+    width: 10em;
+    height: 3em;
+    background-color: #EAC3B5;
+    color: white;
 }

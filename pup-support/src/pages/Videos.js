@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import '../css/styleVideo.css';
 import img1 from '../assets/videoImg1.png';
+import arrow from '../assets/arrow.png';
 
 /**
  * Pupsupport resources page for youtube videos
@@ -13,11 +14,11 @@ function Videos() {
         <div>
             <main>
 			<section className="top-color">
-			<a href="back" className='back'><Link to='/Resources'>Back</Link></a>
+			<a href="back" className='back'><Link to='/Resources'><img src={arrow} alt="arrow" />Back</Link></a>
 			<section className='top-separate'>
 			<section className='topsec'>
 					<h1 className='title'>PupSupport Youtube</h1>
-					<a className='title' href="https://www.youtube.com/@pupsupport6799" title='youtube link' target={"_blank"}><button className='button'>Subscribe to Pup's Channel</button></a>
+					<a className='title' href="https://www.youtube.com/@pupsupport6799" title='youtube link' target={"_blank"}><button className='buttonvid'>Subscribe to Pup's Channel</button></a>
 				</section>
 				<img src={img1} className="symbolImg" alt="material-symbols_tv-outline-rounded" />
 			</section>

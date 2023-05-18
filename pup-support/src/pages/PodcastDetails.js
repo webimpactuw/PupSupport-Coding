@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import thumbnail from '../assets/podcast_images/Rectangle.png';
 
 import "../css/podcast_detail.css";
+import arrow from '../assets/arrow.png';
 
 /**
  * Pupsupport home resource page 
@@ -15,6 +16,7 @@ function PodcastDetails() {
         <div>
             {/* Section 1 */}
             <section className="top">
+            <a href="back" className='back'><Link to='/Resources'><img src={arrow} alt="arrow" />Back</Link></a>
                 <div className='container-top'>
                     <img className="thumbnail" src={thumbnail} alt="thumbnail" />
                     <div className="desc">
