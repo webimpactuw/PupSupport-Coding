@@ -28,7 +28,6 @@ function Home() {
                     <div className="welcome-content">
                         <h1>I am here to <span className="help">help</span></h1>
                         <p className="p-home">Student-led organization with a focus on providing mental health resources to colleges students creatively through Instagram</p>
-                        {/* <button className="home-button">About Us</button> */}
                         <Link type="button" className="home-button" aria-label="About Us Link" role="button" to="/AboutUs">About Us</Link>
                     </div>
                     <div className="img-links">
@@ -86,8 +85,7 @@ function Home() {
                 <div className="resource-contents">
                     <h2>Resources</h2>
                     <p className="p-home">Find support and resources to improve your mental health and well-being.</p>
-                    <button className="home-rec-button">Check Out</button>
-                    {/* <Link type="button" className="home-rec-button" aria-label="Resources Link" role="button" to="/Resources">Check Out</Link> */}
+                    <Link type="button" className="home-rec-button" aria-label="Resources Link" role="button" to="/Resources">Check Out</Link>
                 </div>
                 <div className="img-div">
                     <img className="resource-img" src={resourceImg} alt="Heart mirror pup"/>
