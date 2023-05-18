@@ -34,7 +34,7 @@ function PodcastDetails() {
                 <div className="container-details">
                     <div className='sub-item'>
                         <h3 className='podcast-details-title'>Description</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur. Sagittis dictum mauris nec euismod. 
+                        <p className='podcast-details-p'>Lorem ipsum dolor sit amet consectetur. Sagittis dictum mauris nec euismod. 
                             Nisi pharetra nulla ipsum enim vel. Dictum nunc tempor odio fames nunc. </p>
                     </div>
                    <div className='sub-item'>
@@ -47,7 +47,7 @@ function PodcastDetails() {
                             Morbi scelerisque egestas sed eu. Proin tempor tempor sapien facilisis. 
                             Sapien feugiat nunc elementum vel egestas porttitor elit integer. 
                             Est gravida neque diam nibh interdum scelerisque. Quisque nulla rhoncus odio ultrices habitant sapien a sem et.</p>
-                        <p className='podcast-details-p'>Aliquam vulputate mollis in nisi. Odio aliquam in vehicula urna magna malesuada. 
+                        <p className='podcast-details-next-p'>Aliquam vulputate mollis in nisi. Odio aliquam in vehicula urna magna malesuada. 
                             Malesuada convallis ipsum diam odio quam vulputate. Proin ac quisque nisl quis sapien ullamcorper pharetra. 
                             Magna praesent eu cursus varius vitae morbi sit nulla habitant. Nisi nunc leo id lacus iaculis. 
                             Egestas nec magnis elit sed sed. Sodales tempus turpis orci quam urna nulla vestibulum diam tincidunt. 
