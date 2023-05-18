@@ -1,16 +1,16 @@
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-// import dbsa from '../assets/mental_health_websites/DBSA_Depression_and_Bipolar_Support_Alliance.png';
-// import crisis from '../assets/mental_health_websites/Crisis_Text_Line.png';
-// import adaa from '../assets/mental_health_websites/ADAA_Anxiety_And_Depression_Association_of_America.png';
+ import dbsa from '../assets/mental_health_websites/DBSA_ Depression_and_Bipolar_Support Alliance.png';
+ import crisis from '../assets/mental_health_websites/Crisis_Text_Line.png';
+ import adaa from '../assets/mental_health_websites/ADAA_Anxiety_And_Depression_Association_of_America.png';
 
 
-import "../css/mentalHealth_home.css";
+import "../css/mentalHealth_depression.css";
 /**
  * Pupsupport mental health resource home page 
  */
-function MentalHealthResourceHome() {
+function MentalHealthResourceDepression() {
     // Related functions here
     return (
 
@@ -29,19 +29,19 @@ function MentalHealthResourceHome() {
             <div className='mental-health-resource-bottom-container'>
                 <Card 
                     href="https://www.dbsalliance.org"
-                    thumbnailURL="https://placehold.co/310x175"
+                    thumbnailURL={dbsa}
                     title="DBSA: Depression and Bipolar Support Alliance" 
                     tags={["wellness workshops", "peer support groups", "24/7 chat support"]}
                 />
                 <Card 
                     href="https://www.dbsalliance.org"
-                    thumbnailURL="https://placehold.co/310x175"
+                    thumbnailURL={crisis}
                     title="Crisis Text Line" 
                     tags={["Talk to a real human anonymously ", "Text-In with any concern", "Text \"HOME\" to 741741"]}
                 />
                 <Card 
                     href="https://www.dbsalliance.org"
-                    thumbnailURL="https://placehold.co/310x175" 
+                    thumbnailURL={adaa}
                     title="Anxiety and Depression Association of America" 
                     tags={["Promotes prevention, treatment, and support", "A therapist directory"]}
                 />
@@ -77,4 +77,4 @@ function Card(props) {
     )
 }
 
-export default MentalHealthResourceHome;
+export default MentalHealthResourceDepression;
