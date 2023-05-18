@@ -14,6 +14,8 @@ import Donations from './pages/Donations';
 import DonationsComplete from './pages/DonationComplete';
 import Merch from './pages/Merch';
 import MentalHealthResourceDepression from './pages/MentalHealthResourceDepression';
+import MentalHealthResourceLoneliness from './pages/MentalHealthResourceLoneliness';
+import MentalHealthResourceTherapy from './pages/MentalHealthResourceTherapy';
 
 
 function App() {
@@ -37,6 +39,8 @@ function App() {
         <Route path='/podcast' element={<Podcast/>} />
         <Route path='/PodcastDetails' element={<PodcastDetails/>} />
         <Route path='/mental-health-resource-depression' element={<MentalHealthResourceDepression/>} />
+        <Route path='/mental-health-resource-loneliness' element={<MentalHealthResourceLoneliness/>} />
+        <Route path='/mental-health-resource-therapy' element={<MentalHealthResourceTherapy/>} />
 
       </Routes>
       <Footer/>

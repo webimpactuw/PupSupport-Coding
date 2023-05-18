@@ -1,16 +1,15 @@
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
- import first from '../assets/mental_health_websites/DBSA_ Depression_and_Bipolar_Support Alliance.png';
- import second from '../assets/mental_health_websites/Crisis_Text_Line.png';
- import third from '../assets/mental_health_websites/ADAA_Anxiety_And_Depression_Association_of_America.png';
+ import first from '../assets/mental_health_websites/Do_Something.png';
+ import second from '../assets/mental_health_websites/Generations_United.png';
 
 
 import "../css/mentalHealth_resources.css";
 /**
  * Pupsupport mental health resource home page 
  */
-function MentalHealthResourceDepression() {
+function MentalHealthResourceTherapy() {
     // Related functions here
     return (
 
@@ -18,7 +17,7 @@ function MentalHealthResourceDepression() {
 
             <div className='mental-health-resource-top-container'>
                 <div className='mental-health-resource-title'>
-                    <div className='card-title'>Depression</div>
+                    <div className='card-title'>Anxiety</div>
                     <div className='card-description'>Lorem ipsum dolor sit amet consectetur. Urna morbi fringilla mauris sed. Curabitur fringilla neque dictum ultrices blandit turpis eget.</div>
                     
                 </div>
@@ -28,22 +27,16 @@ function MentalHealthResourceDepression() {
 
             <div className='mental-health-resource-bottom-container'>
                 <Card 
-                    href="https://www.dbsalliance.org"
+                    href="https://www.dosomething.org/us"
                     thumbnailURL={first}
-                    title="DBSA: Depression and Bipolar Support Alliance" 
-                    tags={["wellness workshops", "peer support groups", "24/7 chat support"]}
+                    title="Do Something" 
+                    tags={["abc", "def", "ghi"]}
                 />
                 <Card 
-                    href="https://www.dbsalliance.org"
+                    href="https://www.gu.org/"
                     thumbnailURL={second}
-                    title="Crisis Text Line" 
-                    tags={["Talk to a real human anonymously ", "Text-In with any concern", "Text \"HOME\" to 741741"]}
-                />
-                <Card 
-                    href="https://www.dbsalliance.org"
-                    thumbnailURL={third}
-                    title="Anxiety and Depression Association of America" 
-                    tags={["Promotes prevention, treatment, and support", "A therapist directory"]}
+                    title="Generations United" 
+                    tags={["abc", "def", "ghi"]}
                 />
             </div>
 
@@ -77,4 +70,4 @@ function Card(props) {
     )
 }
 
-export default MentalHealthResourceDepression;
+export default MentalHealthResourceTherapy;
