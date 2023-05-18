@@ -33,9 +33,9 @@ function Home() {
                     <div className="img-links">
                         <img className="main-img" src={welcomeImg1} alt="Hi! I'm pup"/>
                         <div className="link-div">
-                            <a href="#" alt='Twitter'><img className="twitter-img" src={twitter} alt="Twitter"/></a>
-                            <a href="#" alt='Facebook'><img className="facebook-img" src={facebook} alt="Twitter"/></a>
-                            <a href="#" alt='Instagram'><img  className="instagram-img"src={instagram} alt="Twitter"/></a>
+                            <a href="https://twitter.com/pup_support?lang=en" alt='Twitter' target="_blank"><img className="twitter-img" src={twitter} alt="Twitter"/></a>
+                            <a href="https://www.facebook.com/pupsupport/" alt='Facebook' target="_blank"><img className="facebook-img" src={facebook} alt="Twitter"/></a>
+                            <a href="https://www.instagram.com/pupsupport/?hl=en" alt='Instagram' target="_blank"><img  className="instagram-img"src={instagram} alt="Twitter"/></a>
                         </div>
                     </div>
                 </div>
