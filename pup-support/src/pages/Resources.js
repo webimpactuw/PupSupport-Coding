@@ -16,7 +16,7 @@ function Resources() {
             <section className="left-main">
                 <img className = "textBox" src = {pup1} alt='a Background Text Box'/>
                 <div className="disclaimer">
-                    Diclaimer: We are not licensed or trained professionals. All of the information we share and create
+                    Disclaimer: We are not licensed or trained professionals. All of the information we share and create
                     is collected from existing resources, academic papers, and resources provided by professionals.
                 </div>
             </section>
