@@ -16,7 +16,7 @@ import Merch from './pages/Merch';
 import MentalHealthResourceDepression from './pages/MentalHealthResourceDepression';
 import MentalHealthResourceLoneliness from './pages/MentalHealthResourceLoneliness';
 import MentalHealthResourceTherapy from './pages/MentalHealthResourceTherapy';
-
+import ResourcesMenu from './pages/ResourcesMenu';
 
 function App() {
   return (
@@ -41,6 +41,7 @@ function App() {
         <Route path='/mental-health-resource-depression' element={<MentalHealthResourceDepression/>} />
         <Route path='/mental-health-resource-loneliness' element={<MentalHealthResourceLoneliness/>} />
         <Route path='/mental-health-resource-therapy' element={<MentalHealthResourceTherapy/>} />
+        <Route path='/ResourcesMenu' element={<ResourcesMenu/>} />
 
       </Routes>
       <Footer/>
