@@ -37,6 +37,8 @@
 .sub-item {
     margin-top: 64px;
     margin-bottom: 128px;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 .podcast {

@@ -10,13 +10,13 @@ import arrow from '../assets/arrow.png';
 function PodcastDetails() {
     // Related functions here
     
-    <Link to='/podcast'>Back</Link>
+    // <Link to='/podcast'>Back</Link>
     // HTML/React components here to render page
     return (
         <div>
             {/* Section 1 */}
             <section className="top">
-            <a href="back" className='back'><Link to='/Resources'><img src={arrow} alt="arrow" />Back</Link></a>
+            <a href="back" className='back'><Link to='/podcast'><img src={arrow} alt="arrow" />Back</Link></a>
                 <div className='container-top'>
                     <img className="thumbnail" src={thumbnail} alt="thumbnail" />
                     <div className="desc">
