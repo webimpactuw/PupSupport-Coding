@@ -35,13 +35,13 @@ function App() {
 
         {/* Resources related routes */}
         <Route path='/resources' element={<Resources/>} />
+        <Route path='/ResourcesMenu' element={<ResourcesMenu/>} />
         <Route path='/videos' element={<Videos/>} />
         <Route path='/podcast' element={<Podcast/>} />
         <Route path='/PodcastDetails' element={<PodcastDetails/>} />
         <Route path='/mental-health-resource-depression' element={<MentalHealthResourceDepression/>} />
         <Route path='/mental-health-resource-loneliness' element={<MentalHealthResourceLoneliness/>} />
         <Route path='/mental-health-resource-therapy' element={<MentalHealthResourceTherapy/>} />
-        <Route path='/ResourcesMenu' element={<ResourcesMenu/>} />
 
       </Routes>
       <Footer/>

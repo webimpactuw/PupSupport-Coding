@@ -15,6 +15,7 @@ import therapy from '../assets/resources_menu_images/RM_therapy.png';
 import thirdParty from '../assets/resources_menu_images/RM_thirdparty.png';
 import UWResources from '../assets/resources_menu_images/RM_uwresources.png';
 import workshops from '../assets/resources_menu_images/RM_workshops.png';
+import { Link } from 'react-router-dom';
 
 import "../css/ResourcesMenu.css";
 /**
@@ -52,7 +53,7 @@ function ResourcesMenu() {
                     <div className="flexContainer">
                     <div className="align">
                         <div className="cardContainer1">
-                        <a className="cardLink" href="https://google.com">
+                        <Link to='/mental-health-resource-depression'>
                             <div className="hoverContainer">
                             <p className="cardTitle">Depression</p>
                             <img
@@ -76,7 +77,7 @@ function ResourcesMenu() {
                                 />
                             </div>
                             </div>
-                        </a>
+                        </Link>
                         </div>
                         <div className="cardContainer2">
                         <a className="cardLink" href="https://google.com">
@@ -108,7 +109,7 @@ function ResourcesMenu() {
                     </div>
                     <div className="align">
                         <div className="cardContainer3">
-                        <a className="cardLink" href="https://google.com">
+                        <Link to='/mental-health-resource-loneliness'>
                             <div className="hoverContainer">
                             <p className="cardTitle">Loneliness</p>
                             <img
@@ -132,10 +133,10 @@ function ResourcesMenu() {
                                 />
                             </div>
                             </div>
-                        </a>
+                        </Link>
                         </div>
                         <div className="cardContainer4">
-                        <a className="cardLink" href="https://google.com">
+                        <Link to='/mental-health-resource-therapy'>
                             <div className="hoverContainerDown">
                             <p className="cardTitleDown">Therapy</p>
                             <img
@@ -159,7 +160,7 @@ function ResourcesMenu() {
                                 />
                             </div>
                             </div>
-                        </a>
+                        </Link>
                         </div>
                     </div>
                     <div className="align">
