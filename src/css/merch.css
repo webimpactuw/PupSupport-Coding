@@ -76,6 +76,10 @@
     padding: 1rem 2rem 1rem 2rem;
 }
 
+.download-btn:hover {
+    background-color: #e69375;
+}
+
 .merch-link {
     display: flex;
     justify-content: center;
@@ -91,4 +95,8 @@
     font-weight: 500;
     font-size: 2.5em;
     padding: 2rem 4rem 2rem 4rem;
+}
+
+.merch-btn:hover {
+    background-color: #e69375;
 }

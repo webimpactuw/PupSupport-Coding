@@ -80,7 +80,11 @@ function AboutUs() {
                         <p>As college students, we understand how difficult college life can be. We are here to listen and to share some tips and resources to help guide our audience through their own struggles. We hope to help create a world where all those impacted by mental illness know they are not alone and are empowered to live a fulfilling life.</p>
                     </div>
                 </div>
-                <p className='text-center'>Learn more about our team <Link to='/our-team'>here</Link></p>
+                <div className='view-team-section'>
+                <button className='team-btn'>
+                    <Link to='/our-team'>Learn more about our team here!</Link>
+                </button>
+            </div>
             </section>
 
             {/* Section 4 */}

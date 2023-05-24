@@ -10,39 +10,42 @@ import '../css/HeaderFooter.css';
  * Header navigation bar found on every page containing links to: 
  * About.js, Resources.js, Home.js, Store.js, Donation.js
  */
-function Header() {
-    // const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-
-    // const handleMouseEnter = () => {
-    //     setIsDropdownOpen(true);
-    // };
-
-    // const handleMouseLeave = () => {
-    //     setIsDropdownOpen(false);
-    // };
-
-
+function Header() { 
+    const [isAbtShown, setIsAbtShown] = useState(false);
+    const [isResourcesShown, setIsResourcesShown] = useState(false);
     return(
         <div id="header">
             {/* <img id='header-img' src={header}></img> */}
             <section id='nav'>
 
-                <Link to='/about'>About Us</Link>
-
-                {/* <div className="dropdown" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-                    <button className="btn btn-secondary dropdown-toggle" type="button">
-                        Dropdown button
-                    </button>
-                    {isDropdownOpen && (
-                        <ul className="dropdown-menu">
-                        <li><a className="dropdown-item" href="#">Action</a></li>
-                        <li><a className="dropdown-item" href="#">Another action</a></li>
-                        <li><a className="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
+                <div onMouseEnter={() => setIsAbtShown(true)}
+                    onMouseLeave={() => setIsAbtShown(false)}>
+                    <Link to='/about'>
+                            About Us
+                    </Link>
+                    {isAbtShown && (
+                        <div className='about-dropdown'>
+                            <a href='/our-team'>Our Team</a>
+                        </div>
                     )}
-                </div> */}
-
-                <Link to='/resources'>Resources</Link>
+                </div>
+                
+                <div onMouseEnter={() => setIsResourcesShown(true)}
+                    onMouseLeave={() => setIsResourcesShown(false)}>
+                    <div>
+                        <Link to='/resources'>Resources</Link>
+                    </div>
+                    <div>
+                        {isResourcesShown && (
+                            <div className='resources-dropdown'>
+                                <a href='/ResourcesMenu'>Resource Website</a>
+                                <a href='/podcast'>Podcasts</a>
+                                <a href='/videos'>YouTube Videos</a>
+                            </div>
+                        )}
+                    </div>
+                    
+                </div>
                 <section id='home-button-2'></section>
                 <section id='home-button'>
                     <Link to='/'><img src={pup_home2} alt="Pup home icon"></img></Link>
