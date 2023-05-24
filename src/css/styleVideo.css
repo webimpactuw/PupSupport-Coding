@@ -60,9 +60,11 @@ h1{
 }
 .back{
     right: 10%;
-    position: relative;
+    position: relative; 
     font-size: 150%;
     top: 10px;
+    /* margin-top: 1em; */
+
 }
 .botsec{
     position: relative;
