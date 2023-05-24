@@ -51,8 +51,7 @@
   #footer {
     position: relative;
     left: 0;
-    bottom: 0;
-    min-width: 800px;
+    /* min-width: 800px; */
   }
   
   #footer p, #footer a, #footer Link {
