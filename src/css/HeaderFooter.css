@@ -49,6 +49,7 @@
 /* Footer styling */
 
 #footer {
+  bottom: 3em;
   position: relative;
   left: 0;
   /* min-width: 800px; */

@@ -1,4 +1,5 @@
 // Executive team members
+import TBDHeart from '../assets/our_team_images/TBDHeart.jpeg';
 import AmyLy from '../assets/our_team_images/AmyLy.jpg';
 import AngelaChen from '../assets/our_team_images/AngelaChen.jpg';
 import AnnaHuangHu from '../assets/our_team_images/AnnaHuangHu.jpg';
@@ -7,6 +8,18 @@ import NoahHirose from '../assets/our_team_images/NoahHirose.jpg';
 import RobinLai from '../assets/our_team_images/RobinLai.jpg';
 import TracyMai from '../assets/our_team_images/TracyMai.jpg';
 import YunaPark from '../assets/our_team_images/YunaPark.jpg';
+import ChristineHau from '../assets/our_team_images/ChristineHau.jpeg';
+import ZoeySuarez from '../assets/our_team_images/ZoeySuarez.jpeg';
+import AllyTran from '../assets/our_team_images/AllyTran.jpeg';
+import IrisChoe from '../assets/our_team_images/IrisChoe.jpeg';
+import MichelleGuan from '../assets/our_team_images/MichelleGuan.jpeg';
+import EllaSilvas from '../assets/our_team_images/EllaSilvas.jpeg';
+import AllysonLee from '../assets/our_team_images/AllysonLee.jpeg';
+import StephanieChou from '../assets/our_team_images/StephanieChou.jpeg';
+import MadisonKim from '../assets/our_team_images/MadisonKim.jpeg';
+import KalinaLuong from '../assets/our_team_images/KalinaLuong.jpeg';
+import AnniePao from '../assets/our_team_images/AnniePao.jpeg';
+import BobLi from '../assets/our_team_images/BobLi.jpeg';
 
 import { useState } from 'react';
 import '../css/OurTeam.css';
@@ -28,36 +41,32 @@ function OurTeam() {
     ];
 
     const resEduImgs = [
-      {img: YunaPark, name: "Yuna Park", position: "President Co-founder"}, 
-      {img: AmyLy, name: "Amy Ly", position: "Vice President, Co-founder"}, 
-      {img: AngelaChen, name: "Angela Chen", position: "President"}, 
-      {img: NoahHirose, name: "Noah Hirose", position: "Treasurer"}, 
-      {img: HinaYu, name: "Hina Yu", position: "Director of Internal Affairs"}, 
-      {img: AnnaHuangHu, name: "Anna Huang Hu", position: "Vice President"}, 
-      {img: TracyMai, name: "Tracy Mai", position: "Executive Intern"}, 
-      {img: RobinLai, name: "Robin Lai", position: "Director of Creative Operations"}
+      {img: ChristineHau, name: "Christine Hau", position: "Research Coordinator"}, 
+      {img: ZoeySuarez, name: "Zoey Suarez", position: "Research Coordinator"}, 
+      {img: AllyTran, name: "Ally Tran", position: "Education Chair"}, 
+      {img: IrisChoe, name: "Iris Choe", position: "Podcast Producer"}, 
     ];
 
     const extImgs = [
-      {img: YunaPark, name: "Yuna Park", position: "President Co-founder"}, 
-      {img: AmyLy, name: "Amy Ly", position: "Vice President, Co-founder"}, 
-      {img: AngelaChen, name: "Angela Chen", position: "President"}, 
-      {img: NoahHirose, name: "Noah Hirose", position: "Treasurer"}, 
-      {img: HinaYu, name: "Hina Yu", position: "Director of Internal Affairs"}, 
-      {img: AnnaHuangHu, name: "Anna Huang Hu", position: "Vice President"}, 
-      {img: TracyMai, name: "Tracy Mai", position: "Executive Intern"}, 
-      {img: RobinLai, name: "Robin Lai", position: "Director of Creative Operations"}
+      {img: AngelaChen, name: "Angela Chen", position: "Director of External"}, 
+      {img: MichelleGuan, name: "Michelle Guan", position: "Website Administrator"}, 
+      {img: AnnaHuangHu, name: "Anna Huang Hu", position: "Writer & Editor"}, 
+      {img: EllaSilvas, name: "Ella Silvas", position: "Social Media Manager"}, 
+      {img: AllysonLee, name: "Allyson Lee", position: "Social Media Manager"}, 
+      {img: TBDHeart, name: "TBD", position: "Writer & Editor"}, 
     ];
 
     const createImgs = [
-      {img: YunaPark, name: "Yuna Park", position: "President Co-founder"}, 
-      {img: AmyLy, name: "Amy Ly", position: "Vice President, Co-founder"}, 
-      {img: AngelaChen, name: "Angela Chen", position: "President"}, 
-      {img: NoahHirose, name: "Noah Hirose", position: "Treasurer"}, 
-      {img: HinaYu, name: "Hina Yu", position: "Director of Internal Affairs"}, 
-      {img: AnnaHuangHu, name: "Anna Huang Hu", position: "Vice President"}, 
-      {img: TracyMai, name: "Tracy Mai", position: "Executive Intern"}, 
-      {img: RobinLai, name: "Robin Lai", position: "Director of Creative Operations"}
+      {img: RobinLai, name: "Robin Lai", position: "Director of Creative Operations"},
+      {img: StephanieChou, name: "Stephanie Chou", position: "Creative Director"}, 
+      {img: TBDHeart, name: "Arya Patel", position: "Creative Director"}, 
+      {img: MadisonKim, name: "Madison Kim", position: "Lead Designer"}, 
+      {img: TBDHeart, name: "Amy Duong", position: "Typographer"}, 
+      {img: KalinaLuong, name: "Kalina Luong", position: "Typographer"}, 
+      {img: AnniePao, name: "Annie Pao", position: "Designer"}, 
+      {img: TBDHeart, name: "Sabrina Liu", position: "Designer"}, 
+      {img: BobLi, name: "Bob Li", position: "Designer"},
+      {img: TBDHeart, name: "Misty Becker", position: "Designer"}
     ];
 
     return (
