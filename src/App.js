@@ -24,11 +24,11 @@ function App() {
       <Header />
       <Routes>
         <Route path='/' exact element={<Home/>} />
+        <Route path='/PupSupport-Coding' exact element={<Home/>} />
 
         <Route path='/about' element={<AboutUs/>} /> 
         <Route path='/our-team' element={<OurTeam/>} />
 
-        {/* <Route path='/merch' element={<Merch/>} /> */}
         <Route path='/donation' element={<Donations/>} />
         <Route path='/donation-complete' element={<DonationsComplete/>}></Route>
         <Route path='/merch' element={<Merch/>} />
