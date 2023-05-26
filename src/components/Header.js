@@ -25,7 +25,7 @@ function Header() {
                     </Link>
                     {isAbtShown && (
                         <div className='about-dropdown'>
-                            <a href='/our-team'>Our Team</a>
+                            <Link to='/our-team'>Our Team</Link>
                         </div>
                     )}
                 </div>
@@ -38,9 +38,9 @@ function Header() {
                     <div>
                         {isResourcesShown && (
                             <div className='resources-dropdown'>
-                                <a href='/ResourcesMenu'>Resource Website</a>
-                                <a href='/podcast'>Podcasts</a>
-                                <a href='/videos'>YouTube Videos</a>
+                                <Link to='/ResourcesMenu'>Resource Website</Link>
+                                <Link to='/podcast'>Podcasts</Link>
+                                <Link to='/videos'>YouTube Videos</Link>
                             </div>
                         )}
                     </div>
