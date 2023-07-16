@@ -1,28 +1,27 @@
 // Executive team members
-import TBDHeart from '../assets/our_team_images/TBDHeart.jpeg';
-import AmyLy from '../assets/our_team_images/AmyLy.jpg';
-import AngelaChen from '../assets/our_team_images/AngelaChen.jpg';
-import AnnaHuangHu from '../assets/our_team_images/AnnaHuangHu.jpg';
-import HinaYu from '../assets/our_team_images/HinaYu.jpg';
-import NoahHirose from '../assets/our_team_images/NoahHirose.jpg';
-import RobinLai from '../assets/our_team_images/RobinLai.jpg';
-import TracyMai from '../assets/our_team_images/TracyMai.jpg';
-import YunaPark from '../assets/our_team_images/YunaPark.jpg';
-import ChristineHau from '../assets/our_team_images/ChristineHau.jpeg';
-import ZoeySuarez from '../assets/our_team_images/ZoeySuarez.jpeg';
-import AllyTran from '../assets/our_team_images/AllyTran.jpeg';
-import IrisChoe from '../assets/our_team_images/IrisChoe.jpeg';
-import MichelleGuan from '../assets/our_team_images/MichelleGuan.jpeg';
-import EllaSilvas from '../assets/our_team_images/EllaSilvas.jpeg';
-import AllysonLee from '../assets/our_team_images/AllysonLee.jpeg';
-import StephanieChou from '../assets/our_team_images/StephanieChou.jpeg';
-import MadisonKim from '../assets/our_team_images/MadisonKim.jpeg';
-import KalinaLuong from '../assets/our_team_images/KalinaLuong.jpeg';
-import AnniePao from '../assets/our_team_images/AnniePao.jpeg';
-import BobLi from '../assets/our_team_images/BobLi.jpeg';
+import TBDHeart from '../assets/ourTeam/tbd-heart.jpeg';
+import AmyLy from '../assets/ourTeam/amy-ly.jpg';
+import AngelaChen from '../assets/ourTeam/angela-chen.jpg';
+import AnnaHuangHu from '../assets/ourTeam/anna-huang-hu.jpg';
+import HinaYu from '../assets/ourTeam/hina-yu.jpg';
+import NoahHirose from '../assets/ourTeam/noah-hirose.jpg';
+import RobinLai from '../assets/ourTeam/robin-lai.jpg';
+import TracyMai from '../assets/ourTeam/tracy-mai.jpg';
+import YunaPark from '../assets/ourTeam/yuna-park.jpg';
+import ChristineHau from '../assets/ourTeam/christine-hau.jpeg';
+import ZoeySuarez from '../assets/ourTeam/zoey-suarez.jpeg';
+import AllyTran from '../assets/ourTeam/ally-tran.jpeg';
+import IrisChoe from '../assets/ourTeam/iris-choe.jpeg';
+import MichelleGuan from '../assets/ourTeam/michelle-guan.jpeg';
+import EllaSilvas from '../assets/ourTeam/ella-silvas.jpeg';
+import AllysonLee from '../assets/ourTeam/allyson-lee.jpeg';
+import StephanieChou from '../assets/ourTeam/stephanie-chou.jpeg';
+import MadisonKim from '../assets/ourTeam/madison-kim.jpeg';
+import KalinaLuong from '../assets/ourTeam/kalina-luong.jpeg';
+import AnniePao from '../assets/ourTeam/annie-pao.jpeg';
+import BobLi from '../assets/ourTeam/bob-li.jpeg';
 
-import { useState } from 'react';
-import '../css/OurTeam.css';
+import '../css/our-team.css';
 
 /**
  * Pupsupport Our Team Page

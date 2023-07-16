@@ -1,5 +1,5 @@
-import './css/App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import './css/app.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -7,9 +7,8 @@ import Resources from './pages/Resources';
 import OurTeam from './pages/OurTeam';
 import Videos from './pages/Videos';
 import AboutUs from './pages/AboutUs';
-import Podcast from './pages/Podcast';
+import Podcasts from './pages/Podcasts';
 import PodcastDetails from './pages/PodcastDetails';
-// import Merch from './pages/Merch';
 import Donations from './pages/Donations';
 import DonationsComplete from './pages/DonationComplete';
 import Merch from './pages/Merch';
@@ -20,11 +19,10 @@ import ResourcesMenu from './pages/ResourcesMenu';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/PupSupport-Coding">
       <Header />
       <Routes>
         <Route path='/' exact element={<Home/>} />
-        <Route path='/PupSupport-Coding' exact element={<Home/>} />
 
         <Route path='/about' element={<AboutUs/>} /> 
         <Route path='/our-team' element={<OurTeam/>} />
@@ -37,7 +35,7 @@ function App() {
         <Route path='/resources' element={<Resources/>} />
         <Route path='/ResourcesMenu' element={<ResourcesMenu/>} />
         <Route path='/videos' element={<Videos/>} />
-        <Route path='/podcast' element={<Podcast/>} />
+        <Route path='/podcast' element={<Podcasts/>} />
         <Route path='/PodcastDetails' element={<PodcastDetails/>} />
         <Route path='/mental-health-resource-depression' element={<MentalHealthResourceDepression/>} />
         <Route path='/mental-health-resource-loneliness' element={<MentalHealthResourceLoneliness/>} />

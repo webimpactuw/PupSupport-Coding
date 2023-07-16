@@ -1,5 +1,5 @@
-import '../css/DonationComplete.css';
-import goosePup from '../assets/donation_images/goose_pup.png';
+import '../css/donation-complete.css';
+import goosePup from '../assets/donation/goose-pup.png';
 
 function DonationConfirm() {
     return (

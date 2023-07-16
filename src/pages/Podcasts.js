@@ -1,35 +1,31 @@
 import { Link } from 'react-router-dom';
-
-import '../css/podcastStyle.css';
-import dancing from '../assets/podcast_images/PupDancing.png';
-import singing from '../assets/podcast_images/Vector 2.png';
-import rect from '../assets/podcast_images/Rectangle.png';
-import duration from '../assets/podcast_images/duration.png';
+import '../css/podcasts.css';
+import dancing from '../assets/podcasts/pup-dancing.png';
+import singing from '../assets/podcasts/pup-singing.png';
+import overwhelmed from '../assets/podcasts/pup-overwhelmed.png';
 import arrow from '../assets/arrow.png';
 
 /**
- * Pupsupport resources page for youtube videos
+ * Pupsupport resources page for podcasts
  */
-function Podcast() {
-    // Related functions here
+function Podcasts() {
 
-    // HTML/React components here to render page
     return (
         <div>
             <main>
 			<a href="back" className='back'><Link to='/Resources'><img src={arrow} alt="arrow" />Back</Link></a>
 			<section className='head'>
 				<section className='topsec'>
-					<h2>Podcast</h2>
+					<h2>Podcast (coming soon)</h2>
 					<p className='text'>Real-talk on mental Health: Tune in for expert tips and personal experience on improving well-being and self-care.</p>
 				</section>
-				<img src={dancing} class="dancing" alt="pupdancing" />
+				<img src={dancing} class="dancing" alt="Dancing pup" />
 			</section>
 			<section className='recent'>
 				<section className='mid'>
 					<section className='pic'>
 						<h2>Recent Releases</h2>
-						<img src={singing} class="singing" alt="Singingpup" />
+						<img src={singing} class="singing" alt="Singing pup" />
 					</section>
 					<section className='name'>
 						<h3>Podcast Name</h3>
@@ -43,7 +39,7 @@ function Podcast() {
 					<h2 className='text2'>Popular Episodes</h2>
 				</section>
 				<section className='bottom_border'>
-					<img src={rect} className="rect" alt="rect" />
+					<img src={overwhelmed} className="overwhelmed" alt="Overwhelemed pup" />
 					<section className='last'>
 						<p>date</p>
 						<h3 className='pop_eps'>Podcast Name</h3>
@@ -57,4 +53,4 @@ function Podcast() {
     );
 }
 
-export default Podcast;
+export default Podcasts;

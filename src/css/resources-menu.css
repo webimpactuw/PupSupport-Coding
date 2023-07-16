@@ -15,7 +15,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-image: url(../assets/resources_menu_images/RM_header_background.png);
+    background-image: url(../assets/resourcesMenu/header_background.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left -100px;

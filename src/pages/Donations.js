@@ -1,5 +1,5 @@
-import heart_pup from '../assets/donation_images/pup_dono.png';
-import '../css/Donations.css';
+import heart_pup from '../assets/donation/pup-dono.png';
+import '../css/donations.css';
 import { Link } from 'react-router-dom';
 
 /**

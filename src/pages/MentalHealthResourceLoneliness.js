@@ -1,11 +1,8 @@
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-
- import first from '../assets/mental_health_websites/Do_Something.png';
- import second from '../assets/mental_health_websites/Generations_United.png';
+import first from '../assets/mentalHealthResources/do-something.png';
+import second from '../assets/mentalHealthResources/generations-united.png';
 
 
-import "../css/mentalHealth_resources.css";
+import "../css/mental-health-resources.css";
 /**
  * Pupsupport mental health resource home page 
  */

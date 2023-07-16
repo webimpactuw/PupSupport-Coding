@@ -3,7 +3,7 @@
 }
 
 .abt_intro {
-    background-image: url("../assets/about_us_images/aboutUsBg1.png ");
+    background-image: url("../assets/aboutUs/about-us-banner.png ");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 90vh;
@@ -90,7 +90,7 @@
 }
 
 .what {
-    background-image: url('../assets/about_us_images/whatRectangle.png');
+    background-image: url('../assets/aboutUs/what-rect.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding: 2rem 3rem 3rem 3rem;
@@ -98,7 +98,7 @@
 }
 
 .why {
-    background-image: url('../assets/about_us_images/whyRectangle.png');
+    background-image: url('../assets/aboutUs/why-rect.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding: 2rem 3rem 3rem 5rem;

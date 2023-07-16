@@ -1,6 +1,6 @@
 import '../css/merch.css';
-import pup from '../assets/merch_images/merch_pup.png';
-import stickers from '../assets/merch_images/merch-stickers.png';
+import pup from '../assets/merch/merch-pup.png';
+import stickers from '../assets/merch/merch-stickers.png';
 
 function Merch() {
     return (

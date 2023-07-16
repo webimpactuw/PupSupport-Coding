@@ -1,23 +1,22 @@
-import anxiety from '../assets/resources_menu_images/RM_anxiety.png';
-import cardBackgroundDown1 from '../assets/resources_menu_images/RM_cardbackground__1_down_g.png';
-import cardBackgroundUp1 from '../assets/resources_menu_images/RM_cardbackground__1_up_g.png';
-import cardBackgroundDown2 from '../assets/resources_menu_images/RM_cardbackground_2_down.png';
-import cardBackgroundUp2 from '../assets/resources_menu_images/RM_cardbackground_2_up.png';
-import depression from '../assets/resources_menu_images/RM_depression.png';
-import diversity from '../assets/resources_menu_images/RM_diversity.png';
-import headerBackground from '../assets/resources_menu_images/RM_header_background.png';
-import header from '../assets/resources_menu_images/RM_header.png';
-import loneliness from '../assets/resources_menu_images/RM_loneliness.PNG';
-import presentations from '../assets/resources_menu_images/RM_presentations.png';
-import selfCare from '../assets/resources_menu_images/RM_selfcare.png';
-import suicide from '../assets/resources_menu_images/RM_suicide.png';
-import therapy from '../assets/resources_menu_images/RM_therapy.png';
-import thirdParty from '../assets/resources_menu_images/RM_thirdparty.png';
-import UWResources from '../assets/resources_menu_images/RM_uwresources.png';
-import workshops from '../assets/resources_menu_images/RM_workshops.png';
+import anxiety from '../assets/resourcesMenu/anxiety.png';
+import cardBackgroundDown1 from '../assets/resourcesMenu/card-background-1-down.png';
+import cardBackgroundUp1 from '../assets/resourcesMenu/card-background-1-up.png';
+import cardBackgroundDown2 from '../assets/resourcesMenu/card-background-2-down.png';
+import cardBackgroundUp2 from '../assets/resourcesMenu/card-background-2-up.png';
+import depression from '../assets/resourcesMenu/depression.png';
+import diversity from '../assets/resourcesMenu/diversity.png';
+import header from '../assets/resourcesMenu/header.png';
+import loneliness from '../assets/resourcesMenu/loneliness.png';
+import presentations from '../assets/resourcesMenu/presentations.png';
+import selfCare from '../assets/resourcesMenu/selfcare.png';
+import suicide from '../assets/resourcesMenu/suicide.png';
+import therapy from '../assets/resourcesMenu/therapy.png';
+import thirdParty from '../assets/resourcesMenu/third-party.png';
+import UWResources from '../assets/resourcesMenu/uw-resources.png';
+import workshops from '../assets/resourcesMenu/workshops.png';
 import { Link } from 'react-router-dom';
 
-import "../css/ResourcesMenu.css";
+import "../css/resources-menu.css";
 /**
  * Pupsupport home page
  */

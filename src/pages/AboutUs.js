@@ -1,11 +1,11 @@
-import pupsupportValues from '../assets/about_us_images/aboutUsValues.png';
-import pupsupportDog from '../assets/about_us_images/aboutUsDog.png';
-import pupsupportScratches from '../assets/about_us_images/aboutUsScratches.png';
-import line from '../assets/about_us_images/line.png';
-import arrow from '../assets/about_us_images/valueArrow.png';
-import dropdown_btn from '../assets/about_us_images/dropdown_btn.png';
+import pupsupportValues from '../assets/aboutUs/logo.png';
+import pupsupportDog from '../assets/aboutUs/pup.png';
+import pupsupportScratches from '../assets/aboutUs/scratches.png';
+import line from '../assets/aboutUs/line.png';
+import arrow from '../assets/aboutUs/value-arrow.png';
+import dropdown_btn from '../assets/aboutUs/dropdown-btn.png';
 import { Link } from 'react-router-dom';
-import '../css/aboutUs.css';
+import '../css/about-us.css';
 import { useState } from 'react';
 
 /**

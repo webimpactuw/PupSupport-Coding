@@ -1,4 +1,4 @@
-.dancing{
+.dancing {
     width: 293px;
     display: block;
     position: relative;
@@ -6,48 +6,60 @@
     top: 8em;
     z-index: 1;
 }
-.singing{
+
+.singing {
     width: 270px;
     margin-top: 5em;
 
 }
-.pop_eps{
+
+.overwhelmed {
+    width: 250px;
+    padding: 1em 1em 1em 1em;
+    display: block;
+}
+
+.pop_eps {
 display: grid;
 }
-.text{
+
+.text {
     text-align: justify;
     max-width: 70%;
 }
-.head{
+
+.head {
     position: relative;
-    /* left: 10%; */
     display: flex;
     flex: none;
 }
-.topsec{
+
+.topsec {
     position: relative;
     display: inline;
     left: -2.5%;
 }
-.mid{
+
+.mid {
     position: relative;
     padding-left: 10%;
     top: 6em;
 }
+
 .recent {
-    background-image: url("../assets/podcast_images/Vectorblock.png ");
+    background-image: url("../assets/podcasts/rectangle.png ");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 70vh;
     position: relative;
-    /* z-index: -1; */
-
 }
-.pic{
+
+.pic {
     position: relative;
     display: inline;
 }
-.name{
+
+.name {
     position: relative;
     display: block;
     padding-left: 40%;
@@ -55,14 +67,16 @@ display: grid;
     text-align: justify;
     max-width: 90%;
 }
-.podcastmain{
+
+.podcastmain {
     width: 60%;
     height: 10%;
     border-radius: 10px;
     box-shadow: none;
     border: none;
 }
-.bottom{
+
+.bottom {
     position: relative;
     background-color: #C4C9DC;
     width: 80%;
@@ -71,15 +85,18 @@ display: grid;
     top: 4em;
     margin-bottom: 10em;
 }
-.popular{
+
+.popular {
     background-color: #F0F8E7;
     position: relative;
 }
-.text2{
+
+.text2 {
     position: relative;
     padding: 0.5em 0.2em 0.5em 2em;
 }
-.bottom_border{
+
+.bottom_border {
     background-color: white;
     position: relative;
     border-radius: 17px;
@@ -87,24 +104,17 @@ display: grid;
     margin: 3em 3em 3em 3em;
     display: flex;
     align-items: center;
-    
 }
-.last{
-    /* position: relative; */
+
+.last {
     display: inline-block;
-    /* left: 30%; */
     top: -100%;
     text-align: justify;
     max-width: fit-content;
     padding-bottom: 3em;
-    
 }
-.rect{
-    width: 250px;
-    padding: 1em 1em 1em 1em;
-    display: block;
-}
-.buttonpod{
+
+.buttonpod {
     border: none;
     border-radius: 25px;
     width: 10em;

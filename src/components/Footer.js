@@ -1,9 +1,9 @@
 import React from 'react';
-import footer_rectangle from '../assets/footer_rectangle.png';
-import pup_home from '../assets/pup_home.png';
+import footer_rectangle from '../assets/footer-rectangle.png';
+import pup_home from '../assets/pup-home.png';
 import copywrite from '../assets/copywrite.png'
 import { Link } from 'react-router-dom';
-import '../css/HeaderFooter.css';
+import '../css/header-footer.css';
 
 /**
  * Footer found on every page containing:

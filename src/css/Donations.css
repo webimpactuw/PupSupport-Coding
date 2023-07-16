@@ -3,7 +3,7 @@
 }
 
 .dono_intro {
-    background-image: url("../assets/donation_images/purple_dono.png"), url('../assets/donation_images/green_dono.png');
+    background-image: url("../assets/donation/purple-dono.png"), url('../assets/donation/green-dono.png');
     background-position: top left, left bottom;
     background-repeat: no-repeat, repeat;
     background-size: 100% 75%, 100% 25%;

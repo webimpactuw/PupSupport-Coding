@@ -1,17 +1,13 @@
 import { Link } from 'react-router-dom';
-import thumbnail from '../assets/podcast_images/Rectangle.png';
-
-import "../css/podcast_detail.css";
+import "../css/podcast-details.css";
+import thumbnail from '../assets/podcasts/pup-overwhelmed.png';
 import arrow from '../assets/arrow.png';
 
 /**
- * Pupsupport home resource page 
+ * Individual podcast details
  */
 function PodcastDetails() {
-    // Related functions here
-    
-    // <Link to='/podcast'>Back</Link>
-    // HTML/React components here to render page
+
     return (
         <div>
             {/* Section 1 */}

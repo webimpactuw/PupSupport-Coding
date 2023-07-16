@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
-import '../css/styleVideo.css';
-import img1 from '../assets/videoImg1.png';
+import '../css/videos.css';
+import img1 from '../assets/youtube/video.png';
 import arrow from '../assets/arrow.png';
 
 /**

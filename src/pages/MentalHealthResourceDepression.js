@@ -1,12 +1,9 @@
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-
- import first from '../assets/mental_health_websites/DBSA_ Depression_and_Bipolar_Support Alliance.png';
- import second from '../assets/mental_health_websites/Crisis_Text_Line.png';
- import third from '../assets/mental_health_websites/ADAA_Anxiety_And_Depression_Association_of_America.png';
+import first from '../assets/mentalHealthResources/dbsa-depression-and-bipolar-support-alliance.png';
+import second from '../assets/mentalHealthResources/crisis-text-line.png';
+import third from '../assets/mentalHealthResources/adaa-anxiety-and-depression-association-of-america.png';
 
 
-import "../css/mentalHealth_resources.css";
+import "../css/mental-health-resources.css";
 /**
  * Pupsupport mental health resource home page 
  */

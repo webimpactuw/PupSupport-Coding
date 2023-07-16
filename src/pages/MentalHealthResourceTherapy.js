@@ -1,11 +1,8 @@
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import first from '../assets/mentalHealthResources/mental-health-america.png';
+import second from '../assets/mentalHealthResources/healthline-services-for-all-budgets.png';
+import third from '../assets/mentalHealthResources/national-alliance-on-mental-ilness.png';
 
- import first from '../assets/mental_health_websites/Mental_Health_America.png';
- import second from '../assets/mental_health_websites/Healthline_Services_for_All_Budgets.png';
- import third from '../assets/mental_health_websites/National_Alliance_on_Mental_Ilness.png';
-
-import "../css/mentalHealth_resources.css";
+import "../css/mental-health-resources.css";
 /**
  * Pupsupport mental health resource home page 
  */
