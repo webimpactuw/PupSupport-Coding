@@ -48,7 +48,7 @@ function Footer() {
             <div id="footer-credits">
                 <img src={copywrite} alt="copywrite icon"></img>
                 <p>2023 PupSupport</p>
-                <p>Made with <a href="https://dubvelopersuw.org">Dubvelopers</a></p>
+                <p>Made with <a href="http://webimpactuw.org">Web Impact UW</a></p>
             </div>
         </div>
     );
