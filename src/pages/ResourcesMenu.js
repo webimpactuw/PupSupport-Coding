@@ -14,6 +14,7 @@ import therapy from '../assets/resourcesMenu/therapy.png';
 import thirdParty from '../assets/resourcesMenu/third-party.png';
 import UWResources from '../assets/resourcesMenu/uw-resources.png';
 import workshops from '../assets/resourcesMenu/workshops.png';
+import arrow from '../assets/arrow.png';
 import { Link } from 'react-router-dom';
 
 import "../css/resources-menu.css";
@@ -31,7 +32,8 @@ function ResourcesMenu() {
                 <section id="header_RM">
                     <div id="headerContainer_RM">
                     <div>
-                        <a className="back" href="https://google.com"> Back </a>
+                        <a href="back" className='back'><Link to='/Resources'><img src={arrow} alt="arrow" />Back</Link></a>
+                        {/* <a className="back" href="https://google.com"> Back </a> */}
                         <h1 id="MHRheader">Mental Health Resource Links</h1>
                         <p id="headerDescription">
                         Lorem ipsum dolor sit amet consectetur. Urna morbi fringilla
@@ -160,6 +162,13 @@ function ResourcesMenu() {
                             </div>
                             </div>
                         </Link>
+
+
+
+
+
+
+
                         </div>
                     </div>
                     <div className="align">

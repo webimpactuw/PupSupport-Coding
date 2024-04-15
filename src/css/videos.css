@@ -6,37 +6,43 @@
     height: 100%;
     top: 50px;
     padding-left: 5%;
+    padding-right: 5%;
     position: relative;
     justify-content: center;
 
 } 
 .grid-child-element { 
-    max-width: 80%;
+    max-width: 90%;
     max-height: 80%;
 }
+
+.title-vids {
+    margin-bottom: 20px;
+}
+
+.desc-vids {
+    margin-top: 35px;
+}
 .symbolImg{
-    display: inline;
-    width: 400px;
-    padding-bottom: 2em;
-    position: relative;
-    margin-left: 25%;
+    padding-right: 3em;
 }
 .top-color{
     background-color: #ebedfb;
     width: 100%;
 }
 .topsec{
-    display: inline;
-    position: relative;
-    top: 50px;
+    margin-right: auto;
+    text-align: left; /* Center the text horizontally */
     padding-left: 10em;
 }
-.title{
+
+/* .title{
     position: relative;
     display: block;
     left: 10%;
     top: 30px;
-}
+} */
+
 .buttonvid{
     background-color: #EAC3B5;
     border-radius: 30px;
@@ -49,20 +55,20 @@
     color: black;
 }
 .top-separate{
-    display: flex;
-    position: relative;
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align items vertically */
 }
 h1{
     font-size: 300%;
 }
 .back{
-    right: 10%;
-    position: relative; 
-    font-size: 150%;
-    top: 10px;
-    /* margin-top: 1em; */
-
+    position: relative;
+    top: 40px;
+    padding-top: calc(1em + 10px); /* Adjust padding based on relative positioning */
+    right: 10%; /* Move element 10% from the right edge */
+    font-size: 20px;
 }
+
 .botsec{
     position: relative;
     padding-left: 80px;
