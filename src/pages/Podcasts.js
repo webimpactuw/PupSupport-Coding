@@ -16,8 +16,8 @@ function Podcasts() {
 			<a href="back" className='back'><Link to='/Resources'><img src={arrow} alt="arrow" />Back</Link></a>
 			<section className='head'>
 				<section className='topsec'>
-					<h2>Podcast (coming soon)</h2>
-					<p className='text'>Real-talk on mental Health: Tune in for expert tips and personal experience on improving well-being and self-care.</p>
+					<h2 classname='top-title'>Podcast</h2>
+					<p className='top-text'>Real-talk on mental Health: Tune in for expert tips and personal experience on improving well-being and self-care.</p>
 				</section>
 				<img src={dancing} class="dancing" alt="Dancing pup" />
 			</section>
@@ -29,7 +29,7 @@ function Podcasts() {
 					</section>
 					<section className='name'>
 						<h3>Podcast Name</h3>
-						<p className='text'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias nihil iste maxime a sed molestias deleniti beatae rerum dolores dolorem?</p>
+						<p className='name-text'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias nihil iste maxime a sed molestias deleniti beatae rerum dolores dolorem?</p>
 						<iframe className='podcastmain' src="https://open.spotify.com/embed/track/3T03rPwlL8NVk1yIaxeD8U?utm_source=generator"></iframe>
 					</section>
 				</section>
