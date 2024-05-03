@@ -35,10 +35,9 @@ display: grid;
 }
 
 .topsec {
-    display: flex; /* Use flexbox for layout */
-    text-align: center; /* Center the text horizontally */
-    align-items: center; /* Align items vertically */
-    
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
 }
 
 .mid {
