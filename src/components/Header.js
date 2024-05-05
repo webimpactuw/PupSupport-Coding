@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import DropdownMenu from "./DropdownMenu";
 import { Link } from 'react-router-dom';
 import pup_home from '../assets/pup-home.png'; 
 import '../css/app.css';
