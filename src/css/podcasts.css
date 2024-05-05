@@ -25,6 +25,7 @@ display: grid;
 
 .top-text {
     margin-right: auto; /* Push the title to the left */
+    padding-top: 2%;
     text-align: center; /* Center the text horizontally */
 }
 
