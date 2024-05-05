@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import DropdownMenu from "./DropdownMenu";
 import { Link } from 'react-router-dom';
 import pup_home from '../assets/pup-home.png'; 
 import '../css/app.css';
@@ -8,15 +9,41 @@ import '../css/header-footer.css';
  * Header navigation bar found on every page containing links to: 
  * About.js, Resources.js, Home.js, Store.js, Donation.js
  */
+
 function Header() { 
     const [isAbtShown, setIsAbtShown] = useState(false);
     const [isResourcesShown, setIsResourcesShown] = useState(false);
+
+    let abtTimeoutId;
+    let resourcesTimeoutId;
+
+    const handleAbtMouseEnter = () => {
+        clearTimeout(abtTimeoutId);
+        setIsAbtShown(true);
+    };
+
+    const handleAbtMouseLeave = () => {
+        abtTimeoutId = setTimeout(() => {
+            setIsAbtShown(false);
+        }, 100); // Adjust the delay time in milliseconds (e.g., 2000 for 2 seconds)
+    };
+
+    const handleResourcesMouseEnter = () => {
+        clearTimeout(resourcesTimeoutId);
+        setIsResourcesShown(true);
+    };
+
+    const handleResourcesMouseLeave = () => {
+        resourcesTimeoutId = setTimeout(() => {
+            setIsResourcesShown(false);
+        }, 100); // Adjust the delay time in milliseconds (e.g., 2000 for 2 seconds)
+    };
+
     return(
         <div id="header">
             <section id='nav'>
+                <div onMouseEnter={handleAbtMouseEnter} onMouseLeave={handleAbtMouseLeave}>
 
-                <div onMouseEnter={() => setIsAbtShown(true)}
-                    onMouseLeave={() => setIsAbtShown(false)}>
                     <Link to='/about'>
                             About Us
                     </Link>
@@ -27,8 +54,8 @@ function Header() {
                     )}
                 </div>
                 
-                <div onMouseEnter={() => setIsResourcesShown(true)}
-                    onMouseLeave={() => setIsResourcesShown(false)}>
+                <div onMouseEnter={handleResourcesMouseEnter} onMouseLeave={handleResourcesMouseLeave}>
+
                     <div>
                         <Link to='/resources'>Resources</Link>
                     </div>
