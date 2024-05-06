@@ -9,3 +9,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* a.back,
+a.back:hover,
+a.back:visited,
+a.back:active  */
+
+a.back {
+  position: absolute;
+  margin: 2% 0% 0% 8%;
+  text-decoration: none;
+  color: inherit;
+  font-size: 18px;
+}
+

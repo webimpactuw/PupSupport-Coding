@@ -9,30 +9,25 @@ body {
     z-index: -1;
     width: 100%;
   }
+
+section#header_RM {
+  background-image: url(../assets/resourcesMenu/header_background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left -100px;
+}
   
   div#headerContainer_RM {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-image: url(../assets/resourcesMenu/header_background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left -100px;
+    
 
     width: 100%;
-    padding: 0% 0% 10% 0%;
+    padding: 0% 0% 10% 5%;
   }
-  
-  a.back,
-  a.back:hover,
-  a.back:visited,
-  a.back:active {
-    margin: 20% 0% 0% 15%;
-    text-decoration: none;
-    color: inherit;
-    font-size: 20px;
-  }
+
   
   
   h1#MHRheader {
@@ -40,10 +35,10 @@ body {
   
     display: block;
     font-weight: 500;
-    width: 65%;
+    width: 80%;
     height: auto;
     margin: 0% 0% 0% 20%;
-    padding-top: 5%;
+    padding-top: 15%;
   }
   
   p#headerDescription {

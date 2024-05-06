@@ -58,16 +58,17 @@
     display: flex; /* Use flexbox for layout */
     align-items: center; /* Align items vertically */
 }
+
 h1{
     font-size: 300%;
 }
-.back{
+
+/* .back{
     position: relative;
     top: 40px;
-    padding-top: calc(1em + 10px); /* Adjust padding based on relative positioning */
-    right: 10%; /* Move element 10% from the right edge */
+    padding-top: calc(1em + 10px); 
     font-size: 20px;
-}
+} */
 
 .botsec{
     position: relative;

@@ -29,11 +29,29 @@ function ResourcesMenu() {
         <div>
             <body>
                 <header>
-                <section id="header_RM">
+                {/* <section id="header_RM">
                     <div id="headerContainer_RM">
                     <div>
                         <a href="back" className='back'><Link to='/Resources'><img src={arrow} alt="arrow" />Back</Link></a>
-                        {/* <a className="back" href="https://google.com"> Back </a> */}
+                        <h1 id="MHRheader">Mental Health Resource Links</h1>
+                        <p id="headerDescription">
+                        Lorem ipsum dolor sit amet consectetur. Urna morbi fringilla
+                        mauris sed. Curabitur fringilla neque dictum ultrices blandit
+                        turpis eget.
+                        </p>
+                    </div>
+                    <div id="headerIMGcontainer">
+                        <img id="headerIMG" src={header} alt="Dubs" />
+                    </div>
+
+                    </div>
+                </section> */}
+                </header>
+                <main>
+                <section id="header_RM">
+                <a href="back" className='back'><Link to='/Resources'><img src={arrow} alt="arrow" />Back</Link></a>
+                    <div id="headerContainer_RM">
+                    <div>
                         <h1 id="MHRheader">Mental Health Resource Links</h1>
                         <p id="headerDescription">
                         Lorem ipsum dolor sit amet consectetur. Urna morbi fringilla
@@ -47,8 +65,6 @@ function ResourcesMenu() {
 
                     </div>
                 </section>
-                </header>
-                <main>
                 <section id="MHR">
                     <h2>Mental Health Resources</h2>
                     <div className="flexContainer">

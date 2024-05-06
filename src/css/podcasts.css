@@ -39,6 +39,8 @@ display: grid;
     display: flex; 
     flex-direction: column;
     justify-content: center;
+
+    margin-top: 5%;
 }
 
 .mid {
