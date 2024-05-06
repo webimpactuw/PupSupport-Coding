@@ -13,8 +13,9 @@ function Podcasts() {
     return (
         <div>
             <main>
-			<a href="back" className='back'><Link to='/Resources'><img src={arrow} alt="arrow" />Back</Link></a>
 			<section className='head'>
+			<a href="back" className='back'><Link to='/Resources'><img src={arrow} alt="arrow" />Back</Link></a>
+
 				<section className='topsec'>
 					<h2 classname='top-title'>Podcast</h2>
 					<p className='top-text'>Real-talk on mental Health: Tune in for expert tips and personal experience on improving well-being and self-care.</p>
